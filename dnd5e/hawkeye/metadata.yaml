@@ -1,15 +1,16 @@
 ---
 
-# Archtype
+# Archetype
 moniker: hawkeye
+active: true
 player_name: JR
 classes:
   - Cleric:
       level: 4
       subclass: Life Domain
   - Bard:
-      level: 1
-xp: 10047
+      level: 2
+xp: 14324
 
 # Key Stats
 abilities:
@@ -21,42 +22,57 @@ abilities:
   cha: 13
 inspiration: 0
 proficiency_bonus: 3
+Jack of All Trades: 1
+passive_perception: 14
 
-# HP
+# Health
 hp:
-  max: 40
-  current: 23
+  max: 48
+  current: 48
   temp: 0
 hit_dice:
-  total: 4d8+20
-  remaining: 0
+  total: 5d8+24
+  remaining: 5
 death:
   success: 0
   failure: 0
 
 # Toughness
 ac:
-  - chain mail:
-      ac: 16
-  - shield:
-      ac: 2
+  - chain mail: 16
+  - shield: 2
+  - total: 18
 saving_throws:
-  - wis
-  - cha
+  - wis: 7
+  - cha: 4
 
 # Movement
 initiative:
+  - dex: 0
+  - total: 1
 speed:
   - dwarf: 25
 
 # Skills
 core_proficiencies:
-  - arcana
-  - athletics
-  - insight
-  - medicine
-  - performance
-  - persuasion
+  Arcana:
+    - int: 1
+    - total: 4
+  Athletics:
+    - str: 1
+    - total: 4
+  Insight:
+    - wis: 4
+    - total: 7
+  Medicine:
+    - wis: 4
+    - total: 7
+  Performance:
+    - wis: 4
+    - total: 7
+  Persuasion:
+    - cha: 1
+    - total: 4
 bg_proficiencies:
   languages:
     - Common
@@ -65,7 +81,38 @@ bg_proficiencies:
     - Backgammon
     - Brewing
     - Cart Driving
-
+non_proficiencies:
+  Acrobatics:
+    - dex: 0
+    - total: 1
+  AnimalHandling:
+    - wis: 4
+    - total: 5
+  Deception:
+    - cha: 1
+    - total: 2
+  History:
+    - int: 1
+    - total: 2
+  Nature:
+    - int: 1
+    - total: 2
+  Perception:
+    - wis: 4
+    - total: 5
+  Religion:
+    - int: 1
+    - total: 2
+  SleightofHand:
+    - dex: 0
+    - total: 1
+  Stealth:
+    - dex: 0
+    - total: 1
+  Survival:
+    - wis: 4
+    - total: 5
+  
 # Stuff to do in battle
 attacks:
   weapons:
@@ -81,17 +128,19 @@ attacks:
     Cleric:
       - Channel Divinity:
           max_charges: 1
-          charges: 0
+          charges: 1
           effect:
             - Turn Undead
             - Preserve Life
     Bard:
       - Bardic Inspiration:
           max_charges: 1
-          charges: 0
+          charges: 1
           effect: 1d6
   magic:
     Cleric:
+      spell_save: 15
+      spell_attack: 7
       cantrips:
         ready:
           - Resistance
@@ -100,7 +149,7 @@ attacks:
           - Sacred Flame
       1st:
         max_charges: 3
-        charges: 1
+        charges: 3
         ready:
           - Cure Wounds
           - Sanctuary
@@ -112,32 +161,44 @@ attacks:
         max_charges: 3
         charges: 3
         ready:
-          - Prayer of Healing
+          - Blindness/Deafness
           - Silence
           - Zone of Truth
-          - Gentle Repose
+          - Calm Emotions
     Bard:
       cantrips:
         ready:
           - Prestidigitation
           - Mage Hand
       1st:
-        max_charges: 2
-        charges: 2
+        max_charges: 3
+        charges: 3
         ready:
           - Charm Person
           - Cure Wounds
           - Healing Word
           - Heroism
-  items:
+          - Unseen Servant
+  attuned_items:
     - Holy Symbol of Raven Kind:
         max_charges: 10
-        charges: 5
+        charges: 10
         charge_rate: 1d6
         charge_usage:
           Hold Vampires: 1
           Turn Undead: 3
           Sunlight: 5
+    - Le Petit Harcot (Doss Lute):
+        charges:
+          - Fly: 1
+          - Invisibility: 1
+          - Levitate: 1
+          - Protection from Evil and Good: 1
+          - Animal Friendship: 1
+          - Protection from Energy (Fire only): 1
+          - Protection from Poison: 1
+        effect:
+          -Enemy has Disadvantage to avoid charm
 
 # Inventory
 attributes:
@@ -149,9 +210,12 @@ attributes:
   Cleric:
     - Life Domain (heals 2+spell level)
   Bard:
+    - Jack of All Trades (1/2 prof for non_prof)
+    - Song of Rest (1d6 heal for entire party with short rest)
 quirks:
   - Right hand hewn off
   - Werewolf scar on face
+  - Ribs poking out of chest
 packed_gear:
   - Protection from Poison scroll
   - Explorer's pack
@@ -161,12 +225,13 @@ packed_gear:
   - Great axe
   - Ledger of wine sales
   - Durst family deeds (to kids)
-  - Dream pastries x5
+  - Moldy dream pastries x5
+  - Wolf trap
 deployed_gear:
   - Beartrap in tower
 wealth:
   copper: 0
   silver: 87
   electrum: 67
-  gold: 65
+  gold: 89
   platinum: 0

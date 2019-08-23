@@ -1,0 +1,205 @@
+---
+
+# Archetype
+moniker: gor
+active: false
+player_name: JR
+classes:
+  - Barbarian:
+      level: 4
+      subclass: Cannibal
+  - Druid:
+      level: 4
+      subclass: Order of the Moon
+xp: 23000
+
+# Key Stats
+abilities:
+  str: 18
+  dex: 12
+  con: 18
+  int: 8
+  wis: 15
+  cha: 6
+inspiration: 0
+proficiency_bonus: 3
+passive_perception: 15
+
+# Health
+hp:
+  max: 78
+  current: 78 
+  temp: 0
+hit_dice: 
+  total: 4d12+16
+  remaining: 4,4
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - unarmored_defense: 15
+  - natural_armor: 14
+saving_throws:
+  - str: 7
+  - con: 7
+
+# Movement
+initiative: 1
+speed:
+  - lizardfolk:
+      - walk: 30
+      - swim: 30
+
+# Skills
+core_proficiencies:
+  Athletics:
+    - str: 4
+    - total: 7
+  Insight:
+    - wis: 2
+    - total: 5
+  Nature:
+    - int: -1
+    - total: 2
+  Perception:
+    - wis: 2
+    - total: 5
+  Stealth:
+    - dex: 1
+    - total: 4
+  Survival:
+    - wis: 2
+    - total: 5
+bg_proficiencies:
+  languages:
+    - Common
+    - Draconic
+    - Druidic
+    - Primordial
+  trades:
+    - Hide Drum
+non_proficiencies:
+  Medicine:
+    - wis: 2
+  Performance:
+    - wis: 2
+  Persuasion:
+    - cha: -2
+  Arcana:
+    - int: -1
+  Acrobatics:
+    - dex: 1
+  AnimalHandling:
+    - wis: 2 
+  Deception:
+    - cha: -2
+  History:
+    - int: -1
+  Religion:
+    - int: -1
+  SleightofHand:
+    - dex: 1
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Skullhammer:
+        atk_bonus: 7
+        type: Bludgeoning
+        dmg: 2d6+4
+    - Bite:
+        atk_bonus: 7
+        type: Piercing
+        dmg: 1d6+4
+    - Bone Javelin x4:
+        atk_bonus: 4
+        type: Piercing
+        dmg: 1d6
+        range: 30/120
+  special:
+    Lizardfolk:
+      - Hungry Jaws:
+          max_charges: 1
+          charges: 1
+          effect:
+            - Bonus action bite
+            - Gain temp HP equal to con
+    Barbarian:
+      - Rage:
+          max_charges: 3
+          charges: 3
+          effect:
+            - Strength advantage
+            - +2 damage
+            - Resistance to physical damage
+      - Reckless Attack:
+          effect: Advantage to attack, advantage to being attacked
+      - Tavern Brawler:
+          effect: Bonus action to grapple after using unarmed or improv weapon
+    Druid:
+      - Combat Wild Shape:
+          max_charges: 2
+          charges: 2
+          cr: 1, no flying
+          effect:
+            - Bonus action to wild shape
+            - Bonus action for 1d8 heal per level expended spell slot
+          defaults:
+            - Giant Toad
+            - Giant Octopus
+            - Giant Spider
+            - Dire Wolf
+      - Grappler:
+          effect:
+            - Advantage on grapple
+            - Can pin after restrain
+
+  magic:
+    Druid:
+      spell_save: 13
+      spell_attack: 5
+      cantrips:
+        ready:
+          - Guidance
+          - Mending
+          - Poison Spray
+      1st:
+        max_charges: 4
+        charges: 4
+        ready:
+          - Fog Cloud
+          - Goodberry
+          - Thunderwave
+
+      2nd:
+        max_charges: 3
+        charges: 3
+        ready:
+          - Heat Metal
+          - Hold Person
+          - Spike Growth
+          
+# Inventory
+attributes:
+  Lizardfolk:
+    - Cunning Artisan (make weapons from fresh bones)
+    - Hold Breath (15')
+    - Hunter's Lore
+  Barbarian:
+    - Danger Sense (advantage to Dex saves that can't be seen)
+    - All Consuming Rage (Gain con+barb level after killing opponent in rage)
+  Druid:
+
+quirks:
+  - Carnivorous
+  - Has to eat to meditate
+packed_gear:
+  - Explorer's gear
+wealth:
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold: 50
+  platinum: 0
