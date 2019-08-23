@@ -1,3 +1,3 @@
-background: Outlander
-race: Lizardfolk
-alignment: True Neutral
+Background: Outlander
+Race: Lizardfolk
+Alignment: True Neutral

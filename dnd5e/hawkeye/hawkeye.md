@@ -1,3 +1,3 @@
-background: Soldier
-race: Hill Dwarf
-alignment: Lawful Good
+Background: Soldier
+Race: Hill Dwarf
+Alignment: Lawful Good
