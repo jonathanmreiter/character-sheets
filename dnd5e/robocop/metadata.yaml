@@ -1,0 +1,224 @@
+---
+
+# Archetype
+moniker: robocop
+active: false
+player_name: JR
+classes:
+  - Paladin:
+      level: 5
+      subclass: Oath of Conquest
+  - Sorcerer:
+      level: 5
+      subclass: Gold Draconic Bloodline
+xp: 64000
+
+# Key Stats
+abilities:
+  str: 18
+  dex: 11
+  con: 19
+  int: 7
+  wis: 9
+  cha: 19
+inspiration: 0
+proficiency_bonus: 4
+passive_perception: 9
+
+# Health
+hp:
+  max: 90
+  current: 90 
+  temp: 0
+hit_dice: 
+  total: 5d10+20 + 5d6+5+20
+  remaining: 5,5
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - heavy_plating: 20
+  - defense: 1
+  - total: 21 
+saving_throws:
+  - wis: 3
+  - cha: 8
+misc:
+  - Resistance 3 to non-magical weapons
+
+# Movement
+initiative: 0
+speed:
+  - Warforged: 30'
+
+# Skills
+core_proficiencies:
+  Athletics:
+    - str: 4
+    - total: 8
+  Intimidation:
+    - cha: 4
+    - total: 8
+  Insight:
+    - wis: -1
+    - total: 3
+  Persuasion:
+    - cha: 4
+    - total: 8
+bg_proficiencies:
+  languages:
+    - Common
+    - Draconic
+  trades:
+    - Cart Driving
+    - Dominoes
+non_proficiencies:
+  Nature:
+    - int: -3
+  Perception:
+    - wis: -1
+  Stealth:
+    - dex: 0
+  Survival:
+    - wis: -1
+  Medicine:
+    - wis: -1
+  Performance:
+    - wis: -1
+  Arcana:
+    - int: -3
+  Acrobatics:
+    - dex: 0
+  AnimalHandling:
+    - wis: -1
+  Deception:
+    - cha: 4
+  History:
+    - int: -3
+  Religion:
+    - int: -3
+  SleightofHand:
+    - dex: 0 
+  
+# Stuff to do in battle
+attacks:
+  extra_attacks: 1
+  weapons:
+    - Cease (Claymore):
+        atk_bonus:
+        type: Slashing
+        dmg: 2d6+4
+    - Desist (Lance):
+        atk_bonus:
+        type: Piercing
+        dmg: 1d12+4
+    - AUTO-9 (Integrated Atlatl):
+        atk_bonus:
+        type: Piercing
+        dmg: 1d6+4
+    - Chrome Fists:
+        atk_bonus:
+        type: Bludgeoning
+        dmg: 1d4+4
+  special:
+    Paladin:
+      - Divine Sense:
+          max_charges: 5
+          charges: 5
+          effect:
+            - Detect Evil, Consecration, Desecration 60'
+      - Lay on Hands:
+          max_charges: 25hp
+          charges: 25hp
+          effect:
+            - 1xHeal, 5xcure disease or poison
+      - Divine Smite:
+          effect: +2d8(+1d8 per slot) of radiant melee damage
+      - Channel Divinity:
+          max_charges: 1
+          charges: 1
+          effect:
+            - Conquering Presence: 30' Wisdom save or 1m fear
+            - Guided Strike: +10 bonus to roll, decide after roll
+
+  magic:
+    Paladin:
+      spell_save: 16
+      spell_attack: 8
+      1st:
+        max_charges: 4
+        charges: 4
+        ready:
+          - Armor of Agathys
+          - Command
+          - Shield of Faith
+          - Divine Favor
+          - Detect Magic
+      2nd:
+        max_charges: 2
+        charges: 2
+        ready:
+          - Hold Person
+          - Spiritual Weapon (Bundle of Gendarme Lances)
+          - Locate Object
+          - Find Steed
+          - Lesser Restoration
+    Sorcerer:
+      sorcery_points: 5
+      spell_save: 16
+      spell_attack: 8
+      cantrip:
+        ready:
+          - Fire Bolt
+          - True Strike
+          - Shocking Grasp
+          - Message
+      1st:
+        max_charges: 4
+        charges: 4
+        ready:
+          - Magic Missile
+          - Burning Hands
+      2nd:
+        max_charges: 3
+        charges: 3
+        ready:
+          - Blur (Active Camouflage)
+          - See Invisibility
+      3rd:
+        max_charges: 2
+        charges: 2
+        ready:
+          - Fireball
+          - Tongues
+
+# Inventory
+attributes:
+  Warforged:
+    - Warforged Resilience (poison resistance, disease immunity, no eat drink sleep)
+    - Integrated Protection (Pick armor mode each long sleep)
+  Paladin:
+    - Fighting Style, Defense
+    - Heavy Armor Master (Resistance to non-magical weapons)
+  Sorcerer:
+    - Metamagic, Extended Spell (1 pt)
+    - Metamagic, Quickend Spell (2 pts)
+    - Draconic Ancestry (Cha checks with dragons have double prof bonus)
+    - Draconic Resilience
+    - Fire Elemental Adept (Ignore fire resistance, 1s -> 2s)
+quirks:
+  - Obsessed with procedure, to the point of rigidity
+  - Likes to twirl his spear thrower
+packed_gear:
+  - Badge of New Sigil City, Lower Ward
+  - Explorer's pack
+  - Holy Symbol (Door-like Icon of OCP emblazoned on chest)
+  - Arcane Focus (Bulky battery pack)
+wealth:
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold: 110
+  platinum: 0
