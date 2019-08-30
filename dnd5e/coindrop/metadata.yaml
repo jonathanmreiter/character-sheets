@@ -1,0 +1,192 @@
+---
+
+# Archetype
+moniker: coindrop
+active: false
+player_name: JR
+classes:
+  - Cleric:
+      level: 2
+      subclass: Trickery
+  - Rogue:
+      level: 5
+      subclass: Swashbuckler
+xp: 23000
+
+# Key Stats
+abilities:
+  str: 12
+  dex: 20
+  con: 8
+  int: 14
+  wis: 16
+  cha: 12
+inspiration: 0
+proficiency_bonus: 3
+passive_perception: 18
+
+# Health
+hp:
+  max: 25
+  current: 25 
+  temp: 0
+hit_dice: 
+  total: 7d8-7
+  remaining: 7
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - Leather Armor: 11
+  - Total: 16
+saving_throws:
+  - dex: 8
+  - int: 5
+
+# Movement
+initiative:
+  - dex: 5
+  - cha: 1
+  - total: 6
+speed:
+  - foo:
+
+# Skills
+core_proficiencies:
+  Acrobatics:
+    - dex: 5
+    - total: 8
+  Animal Handling:
+    - wis: 3
+    - total: 6
+  Deception:
+    - (expertise)
+    - cha: 1
+    - total: 7
+  Insight:
+    - wis: 3
+    - total: 6
+  Persuasion:
+    - cha: 1
+    - total: 4
+  Sleight of Hand:
+    - dex: 5
+    - total: 8
+  Stealth:
+    - dex: 5
+    - total: 8
+  Survival:
+    - wis: 3
+    - total: 6
+
+bg_proficiencies:
+  languages:
+    - Auran
+    - Common
+    - Thieves Cant
+  trades:
+    - Thieves Tools (Expertise - +6)
+    - Forgery
+    - Coin Smelting
+    - Cart Driving
+non_proficiencies:
+  Athletics:
+    - str: 1
+  Investigation:
+    - int: 2
+    - observant: 5
+    - total: 7
+  Nature:
+    - int: 2
+  Perception:
+    - wis: 3
+    - observant: 5
+    - total: 8
+  Survival:
+    - wis: 3
+  Medicine:
+    - wis: 3
+  Performance:
+    - wis: 3
+  Arcana:
+    - int: 2
+  History:
+    - int: 2
+  Religion:
+    - int: 2
+
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Windston (Rapier):
+        atk_bonus: 8
+        type: Piercing
+        dmg: 1d8+5
+    - Shortbow:
+        atk_bonus: 8
+        type: Piercing
+        dmg: 1d8+5
+    - Dagger:
+        atk_bonus: 8
+        type: Piercing
+        dmg: 1d4+5
+  special:
+    Cleric:
+      - Channel Divinity:
+          max_charges: 1
+          charges: 1
+          effect:
+            - Turn Undead
+            - Invoke Duplicity
+    Rogue:
+      - Sneak Attack:
+          damage: 3d6
+
+  magic:
+    Cleric:
+      spell_save: 17
+      spell_attack: 6
+      cantrips:
+        ready:
+          - Guidance
+          - Mending
+          - Thaumaturgy
+      1st:
+        max_charges: 3
+        charges: 3
+        ready:
+          - Charm Person
+          - Disguise Self
+          - Bane
+          - Detect Magic
+          - Guiding Bolt
+          - Cure Wounds
+          - Protection From Evil
+
+# Inventory
+attributes:
+  Cleric:
+    - Blessing of the Trickster (Confer advantage on Dex and Stealth checks)
+  Kenku:
+    - Mimickry
+  Rogue:
+    - Uncanny Dodge (Halve seen attack as reaction)
+    - Observant (Can lip read)
+    - Fancy Footwork (Melee -> no more opportunity attacks)
+    - Rakish Audacity (Add CHA to init, no advantage needed if you sneak attack without allies flanking)
+
+quirks:
+  - Knight errant to destroy Strahd to collect Quorlinn's Wings
+packed_gear:
+  - Burglar's pack
+  - Thieves tools
+  - Pot and pan
+wealth:
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold:
+  platinum: 0
