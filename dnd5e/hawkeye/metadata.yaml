@@ -10,7 +10,7 @@ classes:
       subclass: Life Domain
   - Bard:
       level: 2
-xp: 14324
+xp: 16749
 
 # Key Stats
 abilities:
@@ -198,7 +198,7 @@ attacks:
           - Protection from Energy (Fire only): 1
           - Protection from Poison: 1
         effect:
-          -Enemy has Disadvantage to avoid charm
+          - Enemy has Disadvantage to avoid charm
 
 # Inventory
 attributes:
@@ -221,17 +221,16 @@ packed_gear:
   - Explorer's pack
   - Holy symbol - blood soaked captain's bracer
   - Orcish caltrop
-  - Falcon bagpipes
   - Great axe
   - Ledger of wine sales
   - Durst family deeds (to kids)
   - Moldy dream pastries x5
-  - Wolf trap
+  - Wolf trap x2
 deployed_gear:
-  - Beartrap in tower
+  - Wolf trap in tower
 wealth:
   copper: 0
   silver: 87
-  electrum: 67
-  gold: 89
+  electrum: 66
+  gold: 77
   platinum: 0
