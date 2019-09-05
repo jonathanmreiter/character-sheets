@@ -1,0 +1,144 @@
+---
+
+# Archetype
+moniker: zabel
+active:  false
+player_name: JR
+classes:
+  - Marshall:
+    level: 1
+xp: 0
+
+# Key Stats
+abilities:
+  str: 10
+  dex: 9
+  con: 15
+  int: 16
+  wis: 11
+  cha: 20
+size: Medium
+
+# Health
+hp:
+  max: 10
+  current: 10 
+  temp: 0
+hit_dice: 
+  total: 1d8+2
+  remaining: 
+
+# Toughness
+ac:
+  - Splint: 6
+  - Shield: 2
+  - total: 17 
+saving_throws:
+  - str: 
+  - con: 
+
+# Movement
+initiative:
+speed:
+  - Lesser Aasimar: 30
+
+# Skills
+class_proficiencies:
+  Bluff:
+    - pts: 1
+  Diplomacy:
+    - pts: 4
+  Handle Animal:
+    - pts: 2
+  Intimidate:
+    - pts: 2
+  Knowledge (Royalty):
+    - pts: 2
+  Listen:
+    - pts: 2
+  Perform:
+  Ride:
+    - pts: 2
+  Sense Motive:
+    - pts: 4
+  Spot:
+    - pts: 2
+  Survival:
+    - pts: 2
+  Swim:
+    - pts: 1
+bg_proficiencies:
+  languages:
+    - Common
+    - Celestial
+    - Dwarven
+    - Elvish
+    - Gnome
+    - Draconic
+    - Halfling
+    - Orc
+    - Giant
+non_proficiencies:
+  Appraise:
+    - pts: 1
+  Profession (Steward): 
+    - pts: 1
+  Use Rope:
+    - pts: 2
+  Tumble:
+    - pts: 1
+  Heal:
+    - pts: 2
+  Hide:
+    - pts: 1
+  Jump:
+    - pts: 1
+  Gather Information:
+    - pts: 1
+  
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Trishula (trident):
+        atk_bonus: 0
+        type: Piercing
+        dmg: 1d8
+    - Spiked Shield Bash:
+        atk_bonus: -10
+        type: Piercing
+        dmg: 1d6
+    - Heavy Crossbow:
+        atk_bonus: -1
+        type: Piercing
+        dmg: 1d10
+
+      
+  special:
+    Marshall:
+      - Minor Auras:
+          - Master of Tactics: +5 damage when flanking 
+
+# Inventory
+attributes:
+  Feats:
+    - Iron Will (+2 Will)
+  Lesser Aasimar:
+    - Darkvision 60'
+    - Racial skills (+2 spot and listen)
+  Marshall:
+    
+
+
+quirks:
+  - Foo
+packed_gear:
+  - Foo
+deployed_gear:
+  - Foo
+wealth:
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold:
+  platinum: 0
