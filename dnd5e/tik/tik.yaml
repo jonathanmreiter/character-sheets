@@ -1,0 +1,186 @@
+---
+
+# Archetype
+moniker: tik
+active: false
+player_name: JR 
+classes:
+  - Cleric:
+      level: 2
+      subclass: War Domain
+  - Fighter:
+      level: 8
+      subclass: Champion
+xp: 
+
+# Key Stats
+abilities:
+  str: 18
+  dex: 12
+  con: 16
+  int: 6
+  wis: 14
+  cha: 11
+inspiration: 0
+proficiency_bonus: 4
+passive_perception: 16
+
+# Health
+hp:
+  max: 83
+  current: 83 
+  temp: 0
+hit_dice: 
+  total: 8d10+2d8+30
+  remaining: 
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - chain mail: 16 
+saving_throws:
+  - str: 8
+  - con: 7
+  - dex: 3
+
+# Movement
+initiative: 1
+speed:
+  - Goliath: 30
+
+# Skills
+core_proficiencies:
+  Athletics:
+    - str: 4
+    - total: 8
+  Intimidation:
+    - cha: 0
+    - total: 4
+  Deception:
+    - cha: 0
+    - total: 4
+  Perception:
+    - wis: 2
+    - total: 6
+  Survival:
+    - wis: 2
+    - total: 6
+bg_proficiencies:
+  languages:
+    - Common
+    - Giant
+    - Auran
+  trades:
+    - Thieves Tools (Proficiency)
+non_proficiencies:
+  Insight:
+    - wis: 2
+  Nature:
+    - int: -2
+  Stealth:
+    - dex: 1
+  Medicine:
+    - wis: 2
+  Performance:
+    - cha: 0
+  Persuasion:
+    - cha: 0
+  Arcana:
+    - int: -2
+  Acrobatics:
+    - dex: 1
+  AnimalHandling:
+    - wis: 2
+  Deception:
+    - cha: 0
+  History:
+    - int: -2
+  Religion:
+    - int: -2
+  SleightofHand:
+    - dex: 1
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Justice (Maul):
+        atk_bonus: 9
+        type: Bludgeoning
+        dmg: 2d6+4
+    - Birdfetcher (Longbow):
+        atk_bonus: 5
+        type: Piercing
+        dmg: 1d8+1
+  special:
+    Cleric:
+      - War Priest:
+        - max_charges: 2
+        - charges: 2
+        - effect: When you attack, you can make an additional 1 weapon attack as a bonus action
+      - Channel Divinity:
+        - max_charges: 1
+        - charges: 1
+        - Turn Undead: Wis saving throw, or turned for 1m or dmg
+        - Guided Strike: +10 to attack after roll (but before DM says hit)
+    Fighter:
+      - Great Weapon Mastery:
+        - Crit or kill a create and you can make 1 melee attack as bonus action
+        - Take -5 to attack roll to do +10 damage
+      - Fellhanded:
+        - If advantage and lower die hits, knock prone
+        - If disadvantage and lower die misses, do str mod bludgeoning damage if higher die hits
+        - Help attack against shield wielder to give +2 bonus to attack roll
+      - Second Wind:
+        - max_charges: 1
+        - charges: 1
+        - effect: Bonus action to heal 1d10+fighter level
+      - Action Surge:
+        - max_charges: 1
+        - charges: 1
+        - effect: Take an additional action
+
+  magic:
+    Cleric:
+      spell_save: 14
+      spell_attack: 6
+      cantrips:
+        ready:
+          - Guidance
+          - Resistance
+          - Spare the Dying
+      1st:
+        max_charges: 3
+        charges: 3
+        ready:
+          - Divine Favor
+          - Shield of Faith
+          - Cure Wounds
+          - Sanctuary
+          - Detect Evil
+          - Protection from Evil
+
+# Inventory
+attributes:
+  Fighter:
+    - Great Weapon Fighting (Re-roll 1 or 2 damage die)
+    - Extra Attack x1
+    - Improved Critical (19-20 crit)
+    - Remarkable Athlete (Running jump feet + str mod)
+
+quirks:
+  - Obsessed with good and moral rectitude
+  - Fears birds, irrationally
+packed_gear:
+  - Ink bottle and parchment (memoir)
+  - Traveler's clothes
+  - Hunting traps x2
+  - Roc feather
+  - Dungeoneer pack
+wealth:
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold: 20
+  platinum: 0
