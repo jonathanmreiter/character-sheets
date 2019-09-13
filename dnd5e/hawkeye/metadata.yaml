@@ -10,7 +10,7 @@ classes:
       subclass: Life Domain
   - Bard:
       level: 2
-xp: 16749
+xp: 18661
 
 # Key Stats
 abilities:
@@ -27,12 +27,12 @@ passive_perception: 14
 
 # Health
 hp:
-  max: 48
-  current: 48
+  max: 52
+  current: 23
   temp: 0
 hit_dice:
-  total: 5d8+24
-  remaining: 5
+  total: 6d8+24
+  remaining: 6
 death:
   success: 0
   failure: 0
@@ -149,7 +149,7 @@ attacks:
           - Sacred Flame
       1st:
         max_charges: 3
-        charges: 3
+        charges: 0
         ready:
           - Cure Wounds
           - Sanctuary
@@ -159,7 +159,7 @@ attacks:
           - Command
       2nd:
         max_charges: 3
-        charges: 3
+        charges: 0
         ready:
           - Blindness/Deafness
           - Silence
@@ -172,7 +172,7 @@ attacks:
           - Mage Hand
       1st:
         max_charges: 3
-        charges: 3
+        charges: 2
         ready:
           - Charm Person
           - Cure Wounds
@@ -226,11 +226,13 @@ packed_gear:
   - Durst family deeds (to kids)
   - Moldy dream pastries x5
   - Wolf trap x2
+  - Hearthstone x1 (heals any disease)
+  - Soul bag x1 (Traps evil souls)
 deployed_gear:
   - Wolf trap in tower
 wealth:
   copper: 0
   silver: 87
   electrum: 66
-  gold: 77
+  gold: 256
   platinum: 0
