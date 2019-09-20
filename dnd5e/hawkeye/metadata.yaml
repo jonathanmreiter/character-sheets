@@ -10,7 +10,7 @@ classes:
       subclass: Life Domain
   - Bard:
       level: 2
-xp: 18661
+xp: 20028
 
 # Key Stats
 abilities:
@@ -28,7 +28,7 @@ passive_perception: 14
 # Health
 hp:
   max: 52
-  current: 23
+  current: 52
   temp: 0
 hit_dice:
   total: 6d8+24
@@ -149,7 +149,7 @@ attacks:
           - Sacred Flame
       1st:
         max_charges: 3
-        charges: 0
+        charges: 3
         ready:
           - Cure Wounds
           - Sanctuary
@@ -159,7 +159,7 @@ attacks:
           - Command
       2nd:
         max_charges: 3
-        charges: 0
+        charges: 3
         ready:
           - Blindness/Deafness
           - Silence
@@ -172,7 +172,7 @@ attacks:
           - Mage Hand
       1st:
         max_charges: 3
-        charges: 2
+        charges: 3
         ready:
           - Charm Person
           - Cure Wounds
@@ -216,6 +216,7 @@ quirks:
   - Right hand hewn off
   - Werewolf scar on face
   - Ribs poking out of chest
+  - Scalp blackened from lighting bolt singe 
 packed_gear:
   - Protection from Poison scroll
   - Explorer's pack
@@ -225,14 +226,15 @@ packed_gear:
   - Ledger of wine sales
   - Durst family deeds (to kids)
   - Moldy dream pastries x5
-  - Wolf trap x2
+  - Wolf trap x5
   - Hearthstone x1 (heals any disease)
   - Soul bag x1 (Traps evil souls)
+  - 3x Chain Shirts
 deployed_gear:
   - Wolf trap in tower
 wealth:
   copper: 0
   silver: 87
-  electrum: 66
-  gold: 256
+  electrum: 0
+  gold: 370
   platinum: 0
