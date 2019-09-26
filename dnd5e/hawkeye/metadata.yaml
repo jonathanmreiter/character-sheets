@@ -10,7 +10,7 @@ classes:
       subclass: Life Domain
   - Bard:
       level: 2
-xp: 20028
+xp: 23190
 
 # Key Stats
 abilities:
@@ -28,7 +28,7 @@ passive_perception: 14
 # Health
 hp:
   max: 52
-  current: 52
+  current: 3
   temp: 0
 hit_dice:
   total: 6d8+24
@@ -128,14 +128,14 @@ attacks:
     Cleric:
       - Channel Divinity:
           max_charges: 1
-          charges: 1
+          charges: 0
           effect:
             - Turn Undead
             - Preserve Life
     Bard:
       - Bardic Inspiration:
           max_charges: 1
-          charges: 1
+          charges: 0
           effect: 1d6
   magic:
     Cleric:
@@ -149,9 +149,9 @@ attacks:
           - Sacred Flame
       1st:
         max_charges: 3
-        charges: 3
+        charges: 0
         ready:
-          - Cure Wounds
+          - Cure Wounds 
           - Sanctuary
           - Guiding Bolt
           - Bless 
@@ -159,7 +159,7 @@ attacks:
           - Command
       2nd:
         max_charges: 3
-        charges: 3
+        charges: 0
         ready:
           - Blindness/Deafness
           - Silence
@@ -172,7 +172,7 @@ attacks:
           - Mage Hand
       1st:
         max_charges: 3
-        charges: 3
+        charges: 1
         ready:
           - Charm Person
           - Cure Wounds
@@ -195,7 +195,7 @@ attacks:
           - Levitate: 1
           - Protection from Evil and Good: 1
           - Animal Friendship: 1
-          - Protection from Energy (Fire only): 1
+          - Protection from Energy (Fire only): 0
           - Protection from Poison: 1
         effect:
           - Enemy has Disadvantage to avoid charm
