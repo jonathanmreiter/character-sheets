@@ -1,0 +1,174 @@
+---
+
+# Archetype
+moniker: rob_zombie
+active: false
+player_name: JR
+classes:
+  - Fighter:
+      level: 1
+  - Rogue:
+      level: 9
+      Subclass: Assassin
+xp: 0
+
+# Key Stats
+abilities:
+  str: 10
+  dex: 20
+  con: 9
+  int: 14
+  wis: 11
+  cha: 12
+inspiration: 0
+proficiency_bonus: 4
+passive_perception:
+
+# Health
+hp:
+  max:
+  current: 
+  temp: 0
+hit_dice: 
+  total: 
+  remaining: 
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - Studded Leather Armor: 12
+  - Dex: 5
+  - Total: 17
+saving_throws:
+  - dex:
+      - Evasion halves total damage
+
+# Movement
+initiative:
+speed:
+  - Shadar-Kai: 30
+
+# Skills
+core_proficiencies:
+  Acrobatics:
+    - dex:
+    - total:
+  Intimidation:
+    - cha:
+    - total:
+  Insight:
+    - wis:
+    - total:
+  Perception:
+    - wis:
+    - total:
+  Persuasion:
+    - cha:
+    - total:
+bg_proficiencies:
+  languages:
+    - Common
+    - Elven
+    - Undercommon
+    - Thieves Cant
+  trades:
+    - Crossbow Making
+    - Disguises
+    - Poison
+non_proficiencies:
+  Athletics:
+    - str:
+    - total:
+  Insight:
+    - wis:
+    - total:
+  Nature:
+    - int:
+    - total:
+  Perception:
+    - wis:
+    - total:
+  Stealth:
+    - dex:
+    - total:
+  Survival:
+    - wis:
+    - total:
+  Medicine:
+    - wis:
+  Performance:
+    - wis:
+  Persuasion:
+    - cha:
+  Arcana:
+    - int:
+  Acrobatics:
+    - dex:
+  AnimalHandling:
+    - wis:
+  Deception:
+    - cha:
+  History:
+    - int:
+  Religion:
+    - int:
+  SleightofHand:
+    - dex:
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Heavy Crossbow:
+        atk_bonus: 11
+        type: Piercing
+        dmg: 1d10+5
+    - Many Daggers:
+        atk_bonus: 9
+        type: Piercing
+        dmg: 1d4+5
+    - Hand Crossbow:
+        atk_bonus: 11
+        type: Piercing
+        dmg: 1d6+5
+  special:
+    Shadar-Kai:
+      - Shadow Jaunt:
+          - Bonus Action - on kill, teleport
+    Fighter:
+      - Second Wind:
+          - Bonus Action: Heal 1d10+1
+    Rogue:
+      - Sneak Attack 5d6
+      - Cunning Action:
+          - Free Bonus Action to Dash, Disengage, or Hide
+      - Uncanny Dodge:
+          - Reaction - halve attack damage
+      - Sharpshooter:
+          - Take a -5 penalty to attack to deal +10 damage
+
+
+# Inventory
+attributes:
+  Shadar-Kai:
+    - Darkvision 120
+  Fighter:
+    - Archery Fighting Style
+  Rogue:
+    - Assassinate - advantage on creates who haven't yet acted, crit on surprised creature
+    - Infiltration
+    - Crossbow Expert
+
+quirks:
+  - Foo
+packed_gear:
+  - Foo
+deployed_gear:
+  - Foo
+wealth:
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold:
+  platinum: 0

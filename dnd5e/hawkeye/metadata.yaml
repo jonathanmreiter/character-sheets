@@ -6,11 +6,12 @@ active: true
 player_name: JR
 classes:
   - Cleric:
-      level: 4
+      level: 5
       subclass: Life Domain
   - Bard:
-      level: 2
-xp: 23190
+      level: 3
+      subclass: College of Lore
+xp: 36786
 
 # Key Stats
 abilities:
@@ -27,12 +28,12 @@ passive_perception: 14
 
 # Health
 hp:
-  max: 52
-  current: 3
+  max: 68
+  current: 68
   temp: 0
 hit_dice:
-  total: 6d8+24
-  remaining: 6
+  total: 8d8+24+8
+  remaining: 8
 death:
   success: 0
   failure: 0
@@ -57,22 +58,34 @@ speed:
 core_proficiencies:
   Arcana:
     - int: 1
-    - total: 4
+    - expertise: 6
+    - total: 7
   Athletics:
     - str: 1
+    - total: 4
+  Deception:
+    - cha: 1
     - total: 4
   Insight:
     - wis: 4
     - total: 7
   Medicine:
     - wis: 4
-    - total: 7
+    - expertise: 6
+    - total: 10
   Performance:
+    - wis: 4
+    - total: 7
+  Perception:
     - wis: 4
     - total: 7
   Persuasion:
     - cha: 1
-    - total: 4
+    - expertise: 6
+    - total: 7
+  Stealth:
+    - dex: 0
+    - total: 3
 bg_proficiencies:
   languages:
     - Common
@@ -88,25 +101,16 @@ non_proficiencies:
   AnimalHandling:
     - wis: 4
     - total: 5
-  Deception:
-    - cha: 1
-    - total: 2
   History:
     - int: 1
     - total: 2
   Nature:
     - int: 1
     - total: 2
-  Perception:
-    - wis: 4
-    - total: 5
   Religion:
     - int: 1
     - total: 2
   SleightofHand:
-    - dex: 0
-    - total: 1
-  Stealth:
     - dex: 0
     - total: 1
   Survival:
@@ -128,16 +132,31 @@ attacks:
     Cleric:
       - Channel Divinity:
           max_charges: 1
-          charges: 0
+          charges: 1
           effect:
-            - Turn Undead
+            - Turn Undead (Destroys 1/2 CR)
             - Preserve Life
     Bard:
       - Bardic Inspiration:
           max_charges: 1
-          charges: 0
-          effect: 1d6
+          charges: 1
+          effect: 
+            - Inspiration - +1d6 to player checks
+            - Cutting words - Reaction, -1d6 to atk, dmg, save
   magic:
+    Slots:
+      1st:
+        max_charges: 4
+        charges: 4
+      2nd:
+        max_charges: 3
+        charges: 3
+      3rd:
+        max_charges: 3
+        charges: 2
+      4th:
+        max_charges: 2
+        charges: 1
     Cleric:
       spell_save: 15
       spell_attack: 7
@@ -148,37 +167,41 @@ attacks:
           - Light
           - Sacred Flame
       1st:
-        max_charges: 3
-        charges: 0
         ready:
-          - Cure Wounds 
-          - Sanctuary
+          - Cure Wounds* 
+          - Sanctuary*
           - Guiding Bolt
           - Bless 
-          - Shield of Faith
-          - Command
       2nd:
-        max_charges: 3
-        charges: 0
         ready:
           - Blindness/Deafness
           - Silence
-          - Zone of Truth
-          - Calm Emotions
+      3rd:
+        ready:
+          - Beacon of Hope*
+          - Revivify*
+          - Daylight
+          - Dispel Magic
+      4th:
+        ready:
+          - Banishment
     Bard:
       cantrips:
         ready:
           - Prestidigitation
           - Mage Hand
       1st:
-        max_charges: 3
-        charges: 1
         ready:
           - Charm Person
-          - Cure Wounds
           - Healing Word
           - Heroism
           - Unseen Servant
+      2nd:
+        ready:
+          - Suggestion
+      3rd:
+        ready:
+          - Tiny Hut
   attuned_items:
     - Holy Symbol of Raven Kind:
         max_charges: 10
@@ -189,16 +212,19 @@ attacks:
           Turn Undead: 3
           Sunlight: 5
     - Le Petit Harcot (Doss Lute):
-        charges:
-          - Fly: 1
-          - Invisibility: 1
-          - Levitate: 1
-          - Protection from Evil and Good: 1
-          - Animal Friendship: 1
-          - Protection from Energy (Fire only): 0
-          - Protection from Poison: 1
+        max_charges: 1
+        charges: 0
+        effects: 
+          - Fly
+          - Invisibility
+          - Levitate
+          - Protection from Evil and Good
+          - Animal Friendship
+          - Protection from Energy (Fire only)
+          - Protection from Poison
         effect:
           - Enemy has Disadvantage to avoid charm
+    - Pipes of Haunting:
 
 # Inventory
 attributes:
@@ -230,11 +256,13 @@ packed_gear:
   - Hearthstone x1 (heals any disease)
   - Soul bag x1 (Traps evil souls)
   - 3x Chain Shirts
+  - Mummified Crawling Claw Corpse
+  - Mass Healing x1
 deployed_gear:
   - Wolf trap in tower
 wealth:
   copper: 0
   silver: 87
   electrum: 0
-  gold: 370
+  gold: 950
   platinum: 0

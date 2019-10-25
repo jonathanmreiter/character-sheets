@@ -1,0 +1,162 @@
+---
+
+# Archetype
+moniker: kurtruss
+active: false
+player_name: JR
+classes:
+  - Bloodhunter:
+      level: 7
+      subclass: Lycan    
+xp: 23000
+
+# Key Stats
+abilities:
+  str: 6
+  dex: 20
+  con: 14
+  int: 10
+  wis: 11
+  cha: 11
+inspiration: 0
+proficiency_bonus:
+passive_perception:
+
+# Health
+hp:
+  max: 51
+  current: 51
+  temp: 0
+hit_dice: 
+  total: 7d10+14
+  remaining: 
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - Studded Leather: 12
+  - total: 17
+saving_throws:
+  - str: 
+  - wis: 
+
+# Movement
+initiative:
+speed:
+  - Kobold: 30
+
+# Skills
+core_proficiencies:
+  Acrobatics:
+    - dex: 5
+    - total: 8
+  Arcana:
+    - int: 0
+    - total: 3
+  Perception:
+    - wis: 0
+    - total: 3
+  Survival:
+    - wis: 0 
+    - total: 3
+bg_proficiencies:
+  languages:
+    - Common
+    - Draconic
+    - Gnomish
+  trades:
+    - Recuperation
+    - Alchemy
+non_proficiencies:
+  Medicine:
+    - wis:
+  Performance:
+    - wis:
+  Persuasion:
+    - cha:
+  Arcana:
+    - int:
+  Acrobatics:
+    - dex:
+  AnimalHandling:
+    - wis:
+  Deception:
+    - cha:
+  History:
+    - int:
+  Religion:
+    - int:
+  SleightofHand:
+    - dex:
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Poke (rapier):
+        atk_bonus: 8
+        type: Piercing
+        dmg: 1d8+5 (2x) 
+    - Hand Crossbow:
+        atk_bonus: 10
+        type: Piercing
+        dmg: 1d6+5
+  special:
+    Kobold:
+      - Grovel:
+          max_charges: 1
+          charges: 1
+          effect:
+            - Action - until end of next turn, allies get advantage on attack rolls against enemies within 10'
+    Blood Hunter:
+      - Crimson Rite:
+          max_charges: 1
+          charges: 1
+          effect:
+            - Bonus - imbue weapon with +1d6 for 7 max HP hit
+            - Rite of the Storm (lighting damage)
+      - Blood Maledict:
+          max_charges: 2
+          charges: 2
+          effect:
+            - Blood Curse of the Eyeless (Reaction - impose disadvantage on attack roll)
+            - Blood Curse of Mutual Suffering (Bonus - damage to me -> 1/2 damage necrotic to them)
+
+
+  magic:
+    Foo:
+      spell_save:
+      spell_attack:
+      cantrips:
+        ready:
+          - Bar
+      1st:
+        max_charges:
+        charges:
+        ready:
+          - Baz
+
+# Inventory
+attributes:
+  Kobold:
+    - Darkvision 60'
+    - Sunlight Sensitivity (Disadvantage on attack rolls and Wisdom in direct sunlight)
+    - Pack Tactics (Advantage if one ally is within 5')
+  Blood Hunter:
+    - Crossbow Expert (Bonus attack with hand crossbow)
+    - Hunter's Bane (Advantage on Wis checks to track Fey, Fiends, Undead, Int to recall info)
+    - Fighting Style - Archery
+
+quirks:
+  - Foo
+packed_gear:
+  - Foo
+deployed_gear:
+  - Foo
+wealth:
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold:
+  platinum: 0
