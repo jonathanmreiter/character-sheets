@@ -257,18 +257,15 @@ packed_gear:
   - 3x Chain Shirts
   - Mummified Crawling Claw Corpse
   - Silver rapier
+  - Handful fake gold
 deployed_gear:
   - Wolf trap in tower
 allies:
   - Odvor the Berserker
 wealth:
-  copper: 0
-  silver: 87
-  electrum: 0
-  gold: 1048
-  platinum: 0
+  copper: 500
+  silver: 500
+  electrum: 500
+  gold: 1550
+  platinum: 500
 
-3500 copper
-3000 silver
-1650 electrum
-275 gold + 187 gold + 37 gold + 625gp + 125gp + 500 gp  + 37 +75
