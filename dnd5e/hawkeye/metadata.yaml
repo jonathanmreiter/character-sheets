@@ -11,7 +11,7 @@ classes:
   - Bard:
       level: 3
       subclass: College of Lore
-xp: 36786
+xp: 43056
 
 # Key Stats
 abilities:
@@ -132,7 +132,7 @@ attacks:
     Cleric:
       - Channel Divinity:
           max_charges: 1
-          charges: 1
+          charges: 0
           effect:
             - Turn Undead (Destroys 1/2 CR)
             - Preserve Life
@@ -147,16 +147,16 @@ attacks:
     Slots:
       1st:
         max_charges: 4
-        charges: 4
+        charges: 2
       2nd:
         max_charges: 3
         charges: 3
       3rd:
-        max_charges: 3
-        charges: 2
+        max_charges: 2*
+        charges: 1
       4th:
         max_charges: 2
-        charges: 1
+        charges: 0
     Cleric:
       spell_save: 15
       spell_attack: 7
@@ -244,7 +244,6 @@ quirks:
   - Ribs poking out of chest
   - Scalp blackened from lighting bolt singe 
 packed_gear:
-  - Protection from Poison scroll
   - Explorer's pack
   - Holy symbol - blood soaked captain's bracer
   - Orcish caltrop
@@ -257,12 +256,19 @@ packed_gear:
   - Soul bag x1 (Traps evil souls)
   - 3x Chain Shirts
   - Mummified Crawling Claw Corpse
-  - Mass Healing x1
+  - Silver rapier
 deployed_gear:
   - Wolf trap in tower
+allies:
+  - Odvor the Berserker
 wealth:
   copper: 0
   silver: 87
   electrum: 0
-  gold: 950
+  gold: 1048
   platinum: 0
+
+3500 copper
+3000 silver
+1650 electrum
+275 gold + 187 gold + 37 gold + 625gp + 125gp + 500 gp  + 37 +75

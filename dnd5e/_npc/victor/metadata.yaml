@@ -1,0 +1,177 @@
+---
+
+# Archetype
+moniker: victor
+active: true
+player_name: JR
+classes:
+  - Wizard:
+      level: 9
+      subclass: School of Evocation
+xp: 49930
+
+# Key Stats
+abilities:
+  str: 9
+  dex: 14
+  con: 11
+  int: 17
+  wis: 12
+  cha: 11
+inspiration: 0
+proficiency_bonus: 4
+passive_perception: 11
+
+# Health
+hp:
+  max: 40
+  current: 40
+  temp: 0
+hit_dice:
+  total: 9d6
+  remaining: 9
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - total: 12
+saving_throws:
+  - int: 7
+  - wis: 5
+
+# Movement
+initiative:
+  - total: 2
+speed:
+  - human: 30
+
+# Skills
+core_proficiencies:
+  Arcana:
+    - int: 3
+    - total: 7
+  History:
+    - int: 3
+    - total: 7
+  Investigation:
+    - int: 3
+    - total: 7
+  Persuasion:
+    - cha: 0
+    - total: 4
+  Religion:
+    - int: 3
+    - total: 7
+bg_proficiencies:
+  languages:
+    - Common
+    - Draconic
+    - Elvish
+  trades:
+    - Chess
+non_proficiencies:
+  Acrobatics:
+    - dex: 2
+    - total: 2
+  AnimalHandling:
+    - wis: 1
+    - total: 1
+  History:
+    - int: 3
+    - total: 3
+  Nature:
+    - int: 3
+    - total: 3
+  SleightofHand:
+    - dex: 2
+    - total: 2
+  Survival:
+    - wis: 1
+    - total: 1
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Dagger:
+        atk_bonus: 6
+        type: Piercing
+        dmg: 1d4+2 (+1d4)
+    - Thrown Dagger:
+        atk_bonus: 6 
+        range: (20/60)
+        type: Piercing
+        dmg: 1d4+2
+  special:
+    Wizard:
+      - Arcane Recovery:
+          max_charges: 1
+          charges: 1
+          effect: Short rest -> up to 5 spell levels recovered
+      - Sculpt Spells:
+          effect: Evocation -> 1+spell level creatures automatically succeed on throw, no damage if they would have taken half
+      - Potent Cantrip:
+          effect: Saving throw success -> still take half damage (no other effects)
+  
+  magic:
+    Slots:
+      1st:
+        max_charges: 4
+        charges: 4
+      2nd:
+        max_charges: 3
+        charges: 3
+      3rd:
+        max_charges: 3
+        charges: 0
+      4th:
+        max_charges: 3
+        charges: 0
+      5th:
+        max_charges: 1
+        charges: 0
+    Wizard:
+      spell_save: 14
+      spell_attack: 6
+      cantrips:
+        ready:
+          - Firebolt
+          - Light
+          - Mage Hand
+          - Prestidigitation
+        not_ready:
+          - Acid Splash
+      1st:
+        ready:
+          - Detect Magic
+          - Mage Armor
+          - Magic Missile
+          - Shield
+      2nd:
+        ready:
+          - Misty Step
+          - Suggestion
+      3rd:
+        ready:
+          - Counterspell
+          - Fireball
+          - Fly
+      4th:
+        ready:
+          - Greater Invisibility
+          - Ice Storm
+      5th:
+        ready:
+          - Cone of Cold
+  attuned_items:
+
+# Inventory
+attributes:
+
+wealth:
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold: 100
+  platinum: 0
