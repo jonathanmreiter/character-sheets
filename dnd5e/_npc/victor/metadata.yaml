@@ -8,7 +8,7 @@ classes:
   - Wizard:
       level: 9
       subclass: School of Evocation
-xp: 49930
+xp: 60080
 
 # Key Stats
 abilities:
@@ -24,8 +24,8 @@ passive_perception: 11
 
 # Health
 hp:
+  current: 36
   max: 40
-  current: 40
   temp: 0
 hit_dice:
   total: 9d6
@@ -36,7 +36,7 @@ death:
 
 # Toughness
 ac:
-  - total: 12
+  - total: 12 (15)
 saving_throws:
   - int: 7
   - wis: 5
@@ -118,16 +118,16 @@ attacks:
     Slots:
       1st:
         max_charges: 4
-        charges: 4
+        charges: 2
       2nd:
         max_charges: 3
-        charges: 3
+        charges: 1
       3rd:
         max_charges: 3
-        charges: 0
+        charges: 2
       4th:
         max_charges: 3
-        charges: 0
+        charges: 1
       5th:
         max_charges: 1
         charges: 0
@@ -168,6 +168,9 @@ attacks:
 
 # Inventory
 attributes:
+
+quirks:
+  - Missing right pinky finger, bitten off by a witch's cat
 
 wealth:
   copper: 0
