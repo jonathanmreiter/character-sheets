@@ -11,7 +11,7 @@ classes:
   - Bard:
       level: 3
       subclass: College of Lore
-xp: 59058
+xp: 59058+240+300+100+25+100+160
 
 # Key Stats
 abilities:
@@ -28,7 +28,7 @@ passive_perception: 18
 
 # Health
 hp:
-  current: 55
+  current: 37
   max: 76
   temp: 0
 hit_dice:
@@ -131,7 +131,7 @@ attacks:
   special:
     Cleric:
       - Channel Divinity:
-          charges: 0
+          charges: 1
           max_charges: 1
           effect:
             - Turn Undead (Destroys 1/2 CR)
@@ -152,7 +152,7 @@ attacks:
         charges: 3
         max_charges: 3
       3rd:
-        charges: 1
+        charges: 2
         max_charges: 2*
       4th:
         charges: 2
@@ -215,12 +215,12 @@ attacks:
   attuned_items:
     - Icon of Ravenloft:
         charge_usage:
-          Protection from evil (30', fiends and undead): 1
+          Protection from evil (30', fiends and undead): x
           Bane of Undead (Turn undead DC +2): 1
           Augury: 1
           Cure Wounds (3d8+3): 1
     - Holy Symbol of Raven Kind:
-        charges: 8
+        charges: 10
         max_charges: 10
         charge_rate: 1d6+4
         charge_usage:
@@ -228,7 +228,7 @@ attacks:
           Turn Undead: 3
           Sunlight: 5
     - Le Petit Harcot (Doss Lute):
-        charges: 0
+        charges: 1
         max_charges: 1
         effects: 
           - Fly

@@ -8,7 +8,7 @@ classes:
   - Wizard:
       level: 9
       subclass: School of Evocation
-xp: 60080
+xp: 60080+240+160
 
 # Key Stats
 abilities:
@@ -24,7 +24,7 @@ passive_perception: 11
 
 # Health
 hp:
-  current: 36
+  current: 40
   max: 40
   temp: 0
 hit_dice:
@@ -36,7 +36,7 @@ death:
 
 # Toughness
 ac:
-  - total: 12 (15)
+  - total: 16
 saving_throws:
   - int: 7
   - wis: 5
@@ -106,8 +106,8 @@ attacks:
   special:
     Wizard:
       - Arcane Recovery:
-          max_charges: 1
           charges: 1
+          max_charges: 1
           effect: Short rest -> up to 5 spell levels recovered
       - Sculpt Spells:
           effect: Evocation -> 1+spell level creatures automatically succeed on throw, no damage if they would have taken half
@@ -117,20 +117,20 @@ attacks:
   magic:
     Slots:
       1st:
+        charges: 3
         max_charges: 4
-        charges: 2
       2nd:
+        charges: 3
         max_charges: 3
-        charges: 1
       3rd:
+        charges: 3
         max_charges: 3
-        charges: 2
       4th:
+        charges: 3
         max_charges: 3
-        charges: 1
       5th:
-        max_charges: 1
         charges: 0
+        max_charges: 1
     Wizard:
       spell_save: 14
       spell_attack: 6
@@ -171,6 +171,7 @@ attributes:
 
 quirks:
   - Missing right pinky finger, bitten off by a witch's cat
+  - Pearl of Power (1x1-3 slots)
 
 wealth:
   copper: 0
