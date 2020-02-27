@@ -1,0 +1,139 @@
+---
+
+# Archetype
+moniker: denis
+active: true
+player_name: Denis X Machina 
+classes:
+  - Rogue:
+      level: 1
+xp: 0
+
+# Key Stats
+abilities:
+  str: 10
+  dex: 17
+  con: 13
+  int: 14
+  wis: 12
+  cha: 9
+inspiration: 0
+proficiency_bonus: 2
+passive_perception:
+
+# Health
+hp:
+  current: 9
+  max: 9
+  temp: 0
+hit_dice: 
+  total: 
+  remaining: 
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - leather: 14 
+saving_throws:
+  - dex: 5 
+  - int: 4
+
+# Movement
+initiative: 3
+speed:
+  - Halfling: 25
+
+# Skills
+core_proficiencies:
+  Athletics:
+    - str:
+    - total:
+  Insight:
+    - wis:
+    - total:
+  Nature:
+    - int:
+    - total:
+  Perception:
+    - wis:
+    - total:
+  Stealth:
+    - dex:
+    - total:
+  Survival:
+    - wis:
+    - total:
+bg_proficiencies:
+  languages:
+    - Common
+  trades:
+    - Foo
+non_proficiencies:
+  Medicine:
+    - wis:
+  Performance:
+    - wis:
+  Persuasion:
+    - cha:
+  Arcana:
+    - int:
+  Acrobatics:
+    - dex:
+  AnimalHandling:
+    - wis:
+  Deception:
+    - cha:
+  History:
+    - int:
+  Religion:
+    - int:
+  SleightofHand:
+    - dex:
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Foo:
+        atk_bonus:
+        type:
+        dmg:
+  special:
+    Foo:
+      - Bar:
+          max_charges:
+          charges:
+          effect:
+            - Baz
+
+  magic:
+    Foo:
+      spell_save:
+      spell_attack:
+      cantrips:
+        ready:
+          - Bar
+      1st:
+        max_charges:
+        charges:
+        ready:
+          - Baz
+
+# Inventory
+attributes:
+  Foo:
+    - Bar
+
+quirks:
+  - Foo
+packed_gear:
+  - Foo
+deployed_gear:
+  - Foo
+wealth:
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold:
+  platinum: 0

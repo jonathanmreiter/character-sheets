@@ -28,7 +28,11 @@ passive_perception: 18
 
 # Health
 hp:
+<<<<<<< HEAD
   current: 36
+=======
+  current: 37
+>>>>>>> 28391a2cc84455c25bd37b0575e4ec6dcfb1e110
   max: 76
   temp: 0
 hit_dice:
@@ -216,7 +220,11 @@ attacks:
     - Icon of Ravenloft:
         charge_usage:
           Protection from evil (30', fiends and undead): x
+<<<<<<< HEAD
           Bane of Undead (Turn undead DC +2): x
+=======
+          Bane of Undead (Turn undead DC +2): 1
+>>>>>>> 28391a2cc84455c25bd37b0575e4ec6dcfb1e110
           Augury: 1
           Cure Wounds (3d8+3): 1
     - Holy Symbol of Raven Kind:

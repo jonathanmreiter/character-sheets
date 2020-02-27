@@ -36,7 +36,7 @@ death:
 
 # Toughness
 ac:
-  - total: 12 (15)
+  - total: 16
 saving_throws:
   - int: 7
   - wis: 5
@@ -106,8 +106,8 @@ attacks:
   special:
     Wizard:
       - Arcane Recovery:
-          max_charges: 1
           charges: 1
+          max_charges: 1
           effect: Short rest -> up to 5 spell levels recovered
       - Sculpt Spells:
           effect: Evocation -> 1+spell level creatures automatically succeed on throw, no damage if they would have taken half
@@ -117,6 +117,7 @@ attacks:
   magic:
     Slots:
       1st:
+<<<<<<< HEAD
         charges: 1
         max_charges: 4
       2nd:
@@ -127,6 +128,18 @@ attacks:
         max_charges: 3
       4th:
         charges: 2
+=======
+        charges: 3
+        max_charges: 4
+      2nd:
+        charges: 3
+        max_charges: 3
+      3rd:
+        charges: 3
+        max_charges: 3
+      4th:
+        charges: 3
+>>>>>>> 28391a2cc84455c25bd37b0575e4ec6dcfb1e110
         max_charges: 3
       5th:
         charges: 0
@@ -177,6 +190,7 @@ attributes:
 
 quirks:
   - Missing right pinky finger, bitten off by a witch's cat
+  - Pearl of Power (1x1-3 slots)
 
 wealth:
   copper: 0
