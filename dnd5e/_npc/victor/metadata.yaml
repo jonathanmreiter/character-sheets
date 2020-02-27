@@ -8,7 +8,7 @@ classes:
   - Wizard:
       level: 9
       subclass: School of Evocation
-xp: 60080
+xp: 61910
 
 # Key Stats
 abilities:
@@ -24,7 +24,7 @@ passive_perception: 11
 
 # Health
 hp:
-  current: 36
+  current: 40
   max: 40
   temp: 0
 hit_dice:
@@ -117,20 +117,20 @@ attacks:
   magic:
     Slots:
       1st:
+        charges: 1
         max_charges: 4
-        charges: 2
       2nd:
-        max_charges: 3
-        charges: 1
-      3rd:
-        max_charges: 3
         charges: 2
-      4th:
         max_charges: 3
-        charges: 1
+      3rd:
+        charges: 2
+        max_charges: 3
+      4th:
+        charges: 2
+        max_charges: 3
       5th:
-        max_charges: 1
         charges: 0
+        max_charges: 1
     Wizard:
       spell_save: 14
       spell_attack: 6
@@ -168,6 +168,12 @@ attacks:
 
 # Inventory
 attributes:
+  - Helm Brilliance (unattuned)
+  - +1 Rod of Pactkeeper
+  - 1 potions of Greater Healing
+  - Trying to get the spell Shadowblade
+  - Pearl of Power (action to get back 3rd level spell)
+
 
 quirks:
   - Missing right pinky finger, bitten off by a witch's cat
@@ -176,5 +182,5 @@ wealth:
   copper: 0
   silver: 0
   electrum: 0
-  gold: 100
-  platinum: 0
+  gold: 5100
+  platinum: 150
