@@ -2,16 +2,16 @@
 
 # Archetype
 moniker: hawkeye
-active: true
+active: false
 player_name: JR
 classes:
   - Cleric:
       level: 6
       subclass: Life Domain
   - Bard:
-      level: 3
+      level: 4
       subclass: College of Lore
-xp: 64130
+xp: 65000+3680
 
 # Key Stats
 abilities:
@@ -28,19 +28,15 @@ passive_perception: 18
 
 # Health
 hp:
-<<<<<<< HEAD
-  current: 36
-=======
-  current: 37
->>>>>>> 28391a2cc84455c25bd37b0575e4ec6dcfb1e110
-  max: 76
+  current: 63
+  max: 84
   temp: 0
 hit_dice:
-  total: 9d8+27+9
+  total: 10d8+30+10
   remaining: 9
 death:
-  success: 0
-  failure: 0
+  success: 2
+  failure: 2
 
 # Toughness
 ac:
@@ -150,20 +146,20 @@ attacks:
   magic:
     Slots:
       1st:
-        charges: 1
+        charges: 3
         max_charges: 4
       2nd:
-        charges: 2
+        charges: 3
         max_charges: 3
       3rd:
-        charges: 2
+        charges: 1
         max_charges: 2*
       4th:
-        charges: 1
+        charges: 2
         max_charges: 2*
       5th:
-        charges: 1
-        max_charges: 1
+        charges: 2
+        max_charges: 2
     Cleric:
       spell_save: 16
       spell_attack: 8
@@ -220,15 +216,11 @@ attacks:
     - Icon of Ravenloft:
         charge_usage:
           Protection from evil (30', fiends and undead): x
-<<<<<<< HEAD
           Bane of Undead (Turn undead DC +2): x
-=======
-          Bane of Undead (Turn undead DC +2): 1
->>>>>>> 28391a2cc84455c25bd37b0575e4ec6dcfb1e110
           Augury: 1
           Cure Wounds (3d8+3): 1
     - Holy Symbol of Raven Kind:
-        charges: 10
+        charge: 9
         max_charges: 10
         charge_rate: 1d6+4
         charge_usage:
@@ -263,6 +255,7 @@ attributes:
   Bard:
     - Jack of All Trades (1/2 prof for non_prof)
     - Song of Rest (1d6 heal for entire party with short rest)
+    - Shield Master (Bonus action attack 5' to shove with shield; Shield AC on dex saves; Reaction on dex saves to take no damage)
 quirks:
   - Right hand hewn off
   - Werewolf scar on face
@@ -293,4 +286,3 @@ wealth:
   electrum: 537
   gold: 1550
   platinum: 500
-
