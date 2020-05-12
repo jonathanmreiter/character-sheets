@@ -1,0 +1,187 @@
+---
+
+# Archetype
+moniker: ncho
+active: false
+player_name: JR
+classes:
+  - Sorceror:
+      level: 3
+      subclass: Wild Magic
+xp: 900
+
+# Key Stats
+abilities:
+  str: 10
+  dex: 13
+  con: 12
+  int: 14
+  wis: 8
+  cha: 16
+inspiration: 0
+proficiency_bonus: 3
+passive_perception: 9
+
+# Health
+hp:
+  current: 15
+  max: 15
+  temp: 0
+hit_dice:
+  total: 3d6+3
+  remaining: 3
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - total: 11
+saving_throws:
+  - con: 3
+  - cha: 5
+
+# Movement
+initiative:
+  - total: 1
+speed:
+  - human: 30
+
+# Skills
+core_proficiencies:
+  Arcana:
+    - int: 2
+    - total: 4
+  History:
+    - int: 2
+    - total: 4
+  Insight:
+    - wis: -1
+    - total: 1
+  Persuasion:
+    - cha: 2
+    - total: 4
+  Stealth:
+    - dex: 1
+    - total: 3
+
+bg_proficiencies:
+  languages:
+    - Common
+    - Abyssal
+    - Primordial
+  trades:
+non_proficiencies:
+  Acrobatics:
+    - dex: 1
+    - total: 1
+  AnimalHandling:
+    - wis: -1
+    - total: -1
+  Athletics:
+    - str: 0
+    - total: 0
+  Deception:
+    - cha: 3
+    - total: 3
+  Nature:
+    - int: 2
+    - total: 2
+  Religion:
+    - int: 2
+    - total: 2
+  SleightofHand:
+    - dex: 1
+    - total: 1
+  Survival:
+    - wis: -1
+    - total: -1
+  Medicine:
+    - wis: -1
+    - total: -1
+  Performance:
+    - cha: 3
+    - total: 3
+  Perception:
+    - wis: -1
+    - total: -1
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - M-0 Mechanical Railgun (Light Crossbow):
+        atk_bonus: 3
+        type: Piercing
+        dmg: 1d8+1
+        ammo: 20
+    - Broken Crysknife (Dagger):
+        atk_bonus: 3
+        Type: piercing
+        dmg: 1d4+1
+        ammo: 2
+  special:
+    Sorceror:
+      - Tides of Chaos:
+          charges: 1
+          max_charges: 1
+          effect:
+            - (Free) Gain advantage on attack, ability, or saving throw
+            - DM can prompt Wild Magic Surge to regain use of this feature
+      - Sorcery Points:
+          charges: 3
+          max_charges: 3
+          effect:
+            - (Bonus) Points -> slots (2,3,5,6,7 for 1st-5th slots)
+            - (Bonus) Slot -> gain points equal to slots level
+        - Extended Spell: 1 point -> double duration (up to 24h) 
+        - Quickened Spell: 2 points -> (action cast -> bonus action)
+  magic:
+    Slots:
+      1st:
+        charges: 4
+        max_charges: 4
+      2nd:
+        charges: 2
+        max_charges: 2
+   Sorceror:
+      spell_save: 
+      spell_attack:
+      spells_known:
+      cantrips:
+        ready:
+          - Mage Hand
+          - Minor Illusion
+          - True Strike
+          - Dancing Lights
+      1st:
+        ready:
+          - Color Spray
+          - Shield
+      2nd:
+        ready:
+          - Mirror Image
+          - Detect Thoughts
+  attuned_items:
+
+# Inventory
+attributes:
+  Human:
+    - Actor (Advantage on Deception and Performance when pretending to be somebody else)
+  Sorceror:
+
+quirks:
+packed_gear:
+  - Arcane Focus (signet ring of Discordianism)
+  - Explorer's Pack
+  - Ink and quill
+  - Letter with question unable to answer (What happens to the law of 5s if humans were born with 6 fingers?)
+  - Foreign clothes
+
+deployed_gear:
+allies:
+wealth:
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold: 10
+  platinum: 0
