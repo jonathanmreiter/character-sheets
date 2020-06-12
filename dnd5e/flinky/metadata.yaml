@@ -1,0 +1,199 @@
+---
+
+# Archetype
+moniker: flinky
+active: false
+player_name: JR
+classes:
+  - Artificer:
+      level: 3
+      subclass: Archivist
+xp: 900
+
+# Key Stats
+abilities:
+  str: 8
+  dex: 14
+  con: 14
+  int: 17
+  wis: 10
+  cha: 12
+inspiration: 0
+proficiency_bonus: 2
+passive_perception: 13
+
+# Health
+hp:
+  current: 20
+  max: 20
+  temp: 0
+hit_dice:
+  total: 3d8+6
+  remaining: 3
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - studded_leather: 12
+  - total: 14
+saving_throws:
+  - con: 4
+  - int: 5
+
+# Movement
+initiative:
+  - total: 2
+speed:
+  - gnome: 25
+
+# Skills
+core_proficiencies:
+  Deception:
+    - cha: 1
+    - total: 3
+  History:
+    - int: 3
+    - total: 5
+  Investigation:
+    - int: 3
+    - total: 5
+  Stealth:
+    - dex: 2
+    - total: 4
+  History:
+    - int: 3
+    - total: 5
+bg_proficiencies:
+  languages:
+    - Common
+    - Gnomish
+  trades:
+      - Thieves tools
+      - Tinker's tools
+      - Calligrapher's tools
+      - Forgery kit
+non_proficiencies:
+  Insight:
+    - wis: 0
+    - total: 0
+  Persuasion:
+    - cha: 1
+    - total: 1
+  Arcana:
+    - int: 3
+    - total: 3
+  Acrobatics:
+    - dex: 2
+    - total: 2
+  AnimalHandling:
+    - wis: 0
+    - total: 0
+  Athletics:
+    - str: -1
+    - total: -1
+  Nature:
+    - int: 3
+    - total: 3
+  Religion:
+    - int: 3
+    - total: 3
+  SleightofHand:
+    - dex: 2
+    - total: 2
+  Survival:
+    - wis: 0
+    - total: 0
+  Medicine:
+    - wis: 0
+    - total: 0
+  Performance:
+    - cha: 1
+    - total: 1
+  Perception:
+    - wis: 0
+    - total: 0
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Panjagan (Light Crossbow):
+        atk_bonus: 5
+        type: Piercing
+        dmg: 1d8+3
+        ammo: N/A
+    - Screwdriver (Dagger):
+        atk_bonus: 4
+        Type: piercing
+        dmg: 1d4+2
+        ammo: 2
+  special:
+    Artificer:
+      - Information Overload (action):
+          - 5' of Mind
+          - Int DC 13
+          - 1d8 psychic damage, next attack has advantage
+          - +1d8 damage per slot expended
+  magic:
+    Slots:
+      1st:
+        charges: 3
+        max_charges: 3
+   Artificer:
+      spell_save: 13
+      spell_attack: 5
+      spells_known: 2
+      cantrips:
+        ready:
+          - Message
+          - Guidance
+      1st:
+        ready:
+          - Snare
+          - Arcane Weapon
+          - Comprehend Languages
+          - Dissonant Whispers
+  attuned_items:
+
+# Inventory
+attributes:
+  Gnome:
+    - Darkvision 60'
+    - Gnome Cunning (advantage on int, wis, cha saves on magic)
+    - Artificer's Lore (double proficiency bonus for History checks on magic items, alchemy, tech)
+    - Tinker (10 gp and an hour to make a toy, fire, or muysic box for 24 hours - up to 3)
+  Artificer:
+    - Magical Tinkering:
+        - Touch tiny object, give it power
+        - 5 feet of light
+        - Speaks recorded message (6 seconds)
+        - Emits sound or odor (10')
+        - Visual effect (25 words, lines, shapes)
+    - Infusionsx3:
+        - Wand of Secrets
+        - Repeating Shot (self)
+        - X for someone else
+    - Tool Expertise (double proficency if using applicable tool)
+    - Artificial Mind (long rest + calligraphy -> item to make it magical)
+        - Clippy, a floating paperclip
+        - Helpful, occasionally sardonic
+        - Proficient in one of two skills (see sheet)
+        - Manifest Mind (comes within 60', hear and use senses, use bonus action to move spectral mind up to 300 feet away, can cast as mind 3 times)
+quirks:
+packed_gear:
+  - Thieves tools
+  - Tinker's tools
+  - Calligrapher's tools
+  - Forgery Kit
+  - Pack of tarot cards
+  - Dungeoneer's pack
+
+deployed_gear:
+allies:
+wealth:
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold: 10
+  platinum: 0
