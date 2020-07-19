@@ -66,13 +66,12 @@ core_proficiencies:
   Persuasion:
     - cha: 2
     - total: 4
-  Medicine:
-    - wis: 1
-    - total: 3
 bg_proficiencies:
   languages:
     - Common
     - Orc
+    - Goblin
+    - Giant
   trades:
     - Oration
 non_proficiencies:
