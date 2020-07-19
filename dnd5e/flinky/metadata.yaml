@@ -2,7 +2,7 @@
 
 # Archetype
 moniker: flinky
-active: false
+active: true
 player_name: JR
 classes:
   - Artificer:
@@ -36,8 +36,8 @@ death:
 
 # Toughness
 ac:
-  - studded_leather: 12
-  - total: 14
+  - mithril_chain: 15
+  - total: 17
 saving_throws:
   - con: 4
   - int: 5
@@ -62,9 +62,6 @@ core_proficiencies:
   Stealth:
     - dex: 2
     - total: 4
-  History:
-    - int: 3
-    - total: 5
 bg_proficiencies:
   languages:
     - Common
@@ -138,7 +135,7 @@ attacks:
   magic:
     Slots:
       1st:
-        charges: 3
+        charges: 1
         max_charges: 3
    Artificer:
       spell_save: 13
@@ -147,7 +144,7 @@ attacks:
       cantrips:
         ready:
           - Message
-          - Guidance
+          - Mending
       1st:
         ready:
           - Snare
@@ -173,7 +170,7 @@ attributes:
     - Infusionsx3:
         - Wand of Secrets
         - Repeating Shot (self)
-        - X for someone else
+        - Big Bonker +1
     - Tool Expertise (double proficency if using applicable tool)
     - Artificial Mind (long rest + calligraphy -> item to make it magical)
         - Clippy, a floating paperclip
@@ -188,6 +185,15 @@ packed_gear:
   - Forgery Kit
   - Pack of tarot cards
   - Dungeoneer's pack
+  - Smoking Bottle
+  - Scroll of Cure Wounds x1
+  - Potion of Healing x3 (1d8+1)
+  - Deck of Illusions x1
+  - Dust of Sneezing and Choking x1
+  - Oil of Slipperiness x1
+  - Potion of Mind Reading x0
+  - Oil of Etherealness x1
+  - Wand of the War Mage +1 x1
 
 deployed_gear:
 allies:
@@ -195,5 +201,5 @@ wealth:
   copper: 0
   silver: 0
   electrum: 0
-  gold: 10
+  gold: 20
   platinum: 0

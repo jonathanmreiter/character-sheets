@@ -1,0 +1,155 @@
+---
+
+# Archetype
+moniker: kauss
+active: true
+player_name: JR
+classes:
+  - Paladin:
+      level: 1
+      subclass: Redemption
+xp: 0
+
+# Key Stats
+abilities:
+  str: 16
+  dex: 8
+  con: 14
+  int: 10
+  wis: 12
+  cha: 15
+inspiration: 0
+proficiency_bonus: 2
+passive_perception: 11
+
+# Health
+hp:
+  current: 12
+  max: 12
+  temp: 0
+hit_dice:
+  total: 1d10+2
+  remaining: 1
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - chain_mail: 16
+  - kite_shield: +2
+  - total: 18
+saving_throws:
+  - cha: 4
+  - wis: 3
+
+# Movement
+initiative:
+  - total: -1
+speed:
+  - orc: 30
+
+# Skills
+core_proficiencies:
+  AnimalHandling:
+    - wis: 1
+    - total: 3
+  History:
+    - int: 0
+    - total: 2
+  Insight:
+    - wis: 1
+    - total: 3
+  Athletics:
+    - str: 3
+    - total: 5
+  Persuasion:
+    - cha: 2
+    - total: 4
+  Medicine:
+    - wis: 1
+    - total: 3
+bg_proficiencies:
+  languages:
+    - Common
+    - Orc
+  trades:
+    - Oration
+non_proficiencies:
+  Deception:
+    - cha: 2
+  Investigation:
+    - int: 0
+  Stealth:
+    - dex: -1
+  Arcana:
+    - int: 0
+  Acrobatics:
+    - dex: -1
+  Nature:
+    - int: 0
+  Religion:
+    - wis: 1
+  SleightofHand:
+    - dex: -1
+  Survival:
+    - wis: 1
+  Performance:
+    - cha: 2
+  Perception:
+    - wis: 1
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Bulava (mace):
+        atk_bonus: 4
+        type: Bludgeoning
+        dmg: 1d6+4
+        ammo: N/A
+    - Uhlan (lance):
+        atk_bonus: 4
+        type: Piercing
+        dmg: 1d12+4
+        special: 5' reach, two hands if not mounted
+  special:
+    Orc:
+      - Aggressive (bonus, move speed towards an enemy, have to be closer)
+    Paladin:
+      - Divine Sense: 
+        - Action, aware Celestial, Fiend, Undead 60' not behind cover
+        - charges: 3
+        - max_charges: 3
+      - Lay on Hands:
+        - Action, heal from pool of HP, or spend 5 to cure disease or poison
+        - charges: 5
+        - max_charge: 5
+  magic:
+  attuned_items:
+    -
+
+# Inventory
+attributes:
+  Orc:
+    - Darkvision 60'
+    - Powerful Build (one size larger for carrying, push, drag, lift)
+    - Primal Intuition
+  Paladin:
+quirks:
+packed_gear:
+  - Explorer's Pack
+  - Tabard of Taikos (a navy blue dethek curved crossed diamond with cream-colored radiating lines)
+  - Kite shield with Taikos pattern
+  - Bulava on beltloop (mace with crossed diamond flanges)
+  - Sir Andris' Uhlan, (guarded lance, ironwood ash branch stripe stained navy blue and grey, tempered steel point)
+  - Traveller's Clothes
+  - Signet of the Squire of the Taikos Order
+
+deployed_gear:
+allies:
+wealth:
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold: 10
+  platinum: 0
