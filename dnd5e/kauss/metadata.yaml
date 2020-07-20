@@ -37,7 +37,7 @@ death:
 # Toughness
 ac:
   - chain_mail: 16
-  - kite_shield: +2
+  - kite_shield: 2
   - total: 18
 saving_throws:
   - cha: 4
@@ -102,14 +102,14 @@ non_proficiencies:
 attacks:
   weapons:
     - Bulava (mace):
-        atk_bonus: 4
+        atk_bonus: 5
         type: Bludgeoning
-        dmg: 1d6+4
+        dmg: 1d6+3
         ammo: N/A
     - Uhlan (lance):
-        atk_bonus: 4
+        atk_bonus: 5
         type: Piercing
-        dmg: 1d12+4
+        dmg: 1d12+3
         special: 5' reach, two hands if not mounted
   special:
     Orc:
