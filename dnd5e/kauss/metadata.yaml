@@ -74,6 +74,7 @@ bg_proficiencies:
     - Giant
   trades:
     - Oration
+    - Brewing
 non_proficiencies:
   Deception:
     - cha: 2

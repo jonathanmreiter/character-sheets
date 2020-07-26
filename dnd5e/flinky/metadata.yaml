@@ -24,7 +24,7 @@ passive_perception: 13
 
 # Health
 hp:
-  current: 20
+  current: 0
   max: 20
   temp: 0
 hit_dice:
@@ -120,7 +120,7 @@ attacks:
         type: Piercing
         dmg: 1d8+3
         ammo: N/A
-    - Screwdriver (Dagger):
+    - Birmingham Screwdriver (Dagger):
         atk_bonus: 4
         Type: piercing
         dmg: 1d4+2
@@ -135,7 +135,7 @@ attacks:
   magic:
     Slots:
       1st:
-        charges: 1
+        charges: 0
         max_charges: 3
    Artificer:
       spell_save: 13
@@ -185,15 +185,16 @@ packed_gear:
   - Forgery Kit
   - Pack of tarot cards
   - Dungeoneer's pack
-  - Smoking Bottle
+  - Smoking Bottle (Slugstomper got it)
   - Scroll of Cure Wounds x1
   - Potion of Healing x3 (1d8+1)
   - Deck of Illusions x1
-  - Dust of Sneezing and Choking x1
+  - Dust of Sneezing and Choking x0
   - Oil of Slipperiness x1
   - Potion of Mind Reading x0
   - Oil of Etherealness x1
   - Wand of the War Mage +1 x1
+  - Belt of Potions? (5 vials, 3 syringines)
 
 deployed_gear:
 allies:
