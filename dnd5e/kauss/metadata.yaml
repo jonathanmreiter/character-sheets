@@ -8,7 +8,7 @@ classes:
   - Paladin:
       level: 1
       subclass: Redemption
-xp: 0
+xp: 130
 
 # Key Stats
 abilities:
@@ -122,7 +122,7 @@ attacks:
         - max_charges: 3
       - Lay on Hands:
         - Action, heal from pool of HP, or spend 5 to cure disease or poison
-        - charges: 5
+        - charges: 0
         - max_charge: 5
   magic:
   attuned_items:
@@ -148,8 +148,9 @@ packed_gear:
 deployed_gear:
 allies:
 wealth:
+  Lifestyle: Modest
   copper: 0
   silver: 0
   electrum: 0
-  gold: 10
+  gold: 14
   platinum: 0

@@ -6,7 +6,7 @@ active: true
 player_name: JR
 classes:
   - Artificer:
-      level: 3
+      level: 4
       subclass: Archivist
 xp: 900
 
@@ -15,7 +15,7 @@ abilities:
   str: 8
   dex: 14
   con: 14
-  int: 17
+  int: 18
   wis: 10
   cha: 12
 inspiration: 0
@@ -25,11 +25,11 @@ passive_perception: 13
 # Health
 hp:
   current: 0
-  max: 20
+  max: 26
   temp: 0
 hit_dice:
-  total: 3d8+6
-  remaining: 3
+  total: 4d8+8
+  remaining: 4
 death:
   success: 0
   failure: 0
@@ -40,7 +40,7 @@ ac:
   - total: 17
 saving_throws:
   - con: 4
-  - int: 5
+  - int: 6
 
 # Movement
 initiative:
@@ -54,11 +54,11 @@ core_proficiencies:
     - cha: 1
     - total: 3
   History:
-    - int: 3
-    - total: 5
+    - int: 4
+    - total: 6
   Investigation:
-    - int: 3
-    - total: 5
+    - int: 4
+    - total: 6
   Stealth:
     - dex: 2
     - total: 4
@@ -79,8 +79,8 @@ non_proficiencies:
     - cha: 1
     - total: 1
   Arcana:
-    - int: 3
-    - total: 3
+    - int: 4
+    - total: 4
   Acrobatics:
     - dex: 2
     - total: 2
@@ -91,11 +91,11 @@ non_proficiencies:
     - str: -1
     - total: -1
   Nature:
-    - int: 3
-    - total: 3
+    - int: 4
+    - total: 4
   Religion:
-    - int: 3
-    - total: 3
+    - int: 4
+    - total: 4
   SleightofHand:
     - dex: 2
     - total: 2
@@ -126,6 +126,12 @@ attacks:
         dmg: 1d4+2
         ammo: 2
   special:
+    Gnome:
+      - Fade Away (reaction):
+        - Invisible until end of next turn
+        - Get back with short rest
+        charges: 1
+        max_charges: 1
     Artificer:
       - Information Overload (action):
           - 5' of Mind
@@ -138,8 +144,8 @@ attacks:
         charges: 0
         max_charges: 3
    Artificer:
-      spell_save: 13
-      spell_attack: 5
+      spell_save: 14
+      spell_attack: 6
       spells_known: 2
       cantrips:
         ready:
@@ -167,10 +173,11 @@ attributes:
         - Speaks recorded message (6 seconds)
         - Emits sound or odor (10')
         - Visual effect (25 words, lines, shapes)
-    - Infusionsx3:
+    - Infusionsx4:
         - Wand of Secrets
         - Repeating Shot (self)
         - Big Bonker +1
+        - Bag of holding
     - Tool Expertise (double proficency if using applicable tool)
     - Artificial Mind (long rest + calligraphy -> item to make it magical)
         - Clippy, a floating paperclip

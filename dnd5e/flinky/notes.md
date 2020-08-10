@@ -26,8 +26,9 @@ Carriage -> pontificating
     - Break into library
     - Don't get caught
     - 8 hours
-    - Old book in library (description only, guarded)
+    - Old book in library (description only, guarded) -> Tome of Leviathan
     - Insurance + bet chips
+    - Big Frank's Plan
 
 6 PM in town
     market
@@ -44,3 +45,5 @@ Big Frank's Artificer school
 +1d6 to roll within an hour (7 hours to go)
 
 Sentinels are like elementals
+
+Restricted magic, every other day, restricted 

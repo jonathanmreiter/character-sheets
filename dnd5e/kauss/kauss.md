@@ -28,3 +28,9 @@
 - Saints Augustine and Benedict
 - Scipio
 - Harrowhark (Gideon the Ninth)
+
+I think Taikos is formally atheistic, but there's an affinity for worship of Eldath in Mount Nimda. Kauss is not an observant worshipper of Eldath, but enjoys their traditions and holidays, which typically was impetus for drinking Taikist beers while enjoying a dip in the Subrin.
+maybe they have a bucket list item to visit the Misty Vale, where peace reigns eternal, to take a token and leave a token, such that Mount Nimda may be a little closer.
+
+I think Mount Nimbda is about 50 miles south of Yartar, along the Surbrin. 
+Meanwhile, outside the monastary, Kauss has only been to Yartar for market trips every month or so, and on one ill-fated journey to the Evermoors perhaps 5 years ago. There, in service of Sir Andris, they attempted to broker a brief peace between a confederation of Uthgardt and a Black Claw warband. It failed miserably, save for a small impressionable band of youths spanning both camps. They promised to stay in touch, but Kauss has never heard back.
