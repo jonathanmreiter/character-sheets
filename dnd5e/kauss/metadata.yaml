@@ -8,7 +8,7 @@ classes:
   - Paladin:
       level: 1
       subclass: Redemption
-xp: 130
+xp: 265
 
 # Key Stats
 abilities:
@@ -136,6 +136,8 @@ attributes:
     - Primal Intuition
   Paladin:
 quirks:
+  - Axebeak scar along midsection
+  - Claw scar along the face
 packed_gear:
   - Explorer's Pack
   - Tabard of Taikos (a navy blue dethek curved crossed diamond with cream-colored radiating lines)
@@ -152,5 +154,5 @@ wealth:
   copper: 0
   silver: 0
   electrum: 0
-  gold: 14
+  gold: 34
   platinum: 0

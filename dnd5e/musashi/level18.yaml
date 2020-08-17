@@ -1,0 +1,185 @@
+---
+
+# Archetype
+moniker: musashi
+active: true
+player_name: JR
+classes:
+  - Fighter:
+      level: 15
+      subclass: Samurai
+  - Rogue:
+      level: 3
+      subclass: Swashbuckler
+xp: N/A
+
+# Key Stats
+abilities:
+  str: 10
+  dex: 16
+  con: 12
+  int: 10
+  wis: 18
+  cha: 12
+inspiration: 0
+proficiency_bonus: 6
+passive_perception:  
+
+# Health
+hp:
+  current: 107
+  max: 107
+  temp: 0
+hit_dice:
+  total: 15d10+3d8+15
+  remaining: 18
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - chain_mail: 16
+  - dual_wielder: 1
+  - total: 20
+saving_throws:
+  - str: 6
+  - con: 7
+  - wis: 10
+
+# Movement
+initiative:
+  - rakish_audacity: 1
+  - total: 4
+speed:
+  - human: 30
+
+# Skills
+core_proficiencies:
+  Acrobatics:
+    - dex: -1
+    - total: 
+  Religion:
+    - wis: 1
+    - total: 3
+  History:
+    - int: 0
+    - total: 2
+  Insight:
+    - wis: 1
+    - exp: 8
+    - total: 3
+  Athletics:
+    - str: 3
+    - exp: 8
+    - total: 5
+  Perception:
+    - wis: 2
+    - total: 4
+bg_proficiencies:
+  languages:
+    - Iluthian
+    - Common
+  trades:
+    - Calligraphy
+non_proficiencies:
+  Deception:
+    - cha: 2
+  Investigation:
+    - int: 0
+  Stealth:
+    - dex: -1
+  Arcana:
+    - int: 0
+  Nature:
+    - int: 0
+  SleightofHand:
+    - dex: -1
+  Survival:
+    - wis: 1
+  Performance:
+    - cha: 2
+  Persuasion:
+    - cha:
+    - wis (courtier):
+
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Bokken (club):
+        atk_bonus: 6/10
+        type: Bludgeoning
+        dmg: 1d4/1d8+4
+        ammo: N/A
+    - Kunai (dagger):
+        atk_bonus: 9
+        type: Piercing
+        dmg: 1d4+3
+        ammo: 4
+    - Wakizashi (shortsword):
+        atk_bonus: 9
+        type: Piercing
+        dmg: 1d6+3
+        ammo: N/A
+    - Yumi (longbow):
+        atk_bonus: 9
+        type: Piercing
+        dmg: 1d8+3
+        ammo: N/A
+
+  special:
+    Human:
+      Defense Duelist:
+        - effect: reaction, 26 AC to one attack that hits, can prevent hit
+    Fighter:
+      Extra Attack:
+        - effect: attack - make up to 3 attacks
+      Fighting Spirit:
+        - effect: bonus - gain 10 temp HP, all attacks are at advantage
+        - charges: 3
+        - max_charges: 3
+      Second Wind:
+        - effect: bonus - heal 1d10+15
+        - charges: 1
+        - max_charges: 1 (short rest)
+      Action Surge:
+        - effect: one extra action
+        - charges: 1
+        - max_charges: 1 (short rest)
+      Indominatable:
+        - effect: reroll any failed saving throw
+        - charges: 2
+        - max_charges: 2
+    Rogue:
+      Sneak Attack:
+        - effect: x1 per turn, 2d6 damage
+        - conditions: finesse weapon, advantage OR ally OR self within 5 feet
+      Cunning Action:
+        - effect: bonus - dash, disengage, hide
+      Fancy Footwork:
+        - effect: melee attacked enemies cannot perform opportunity attacks to you until end of turn
+  magic:
+  attuned_items:
+    -
+
+# Inventory
+attributes:
+  Human:
+    - Magic Initiate, Druid (Shilleagh, Poison Spray)
+    - Medium Armor Master
+    - Defensive Duelist
+    - Dual Wielder
+  Fighter:
+    - Fighting Style: Two Weapon Fighting 
+    - Tireless Spirit (when roll initiative and no Fighting Spirit, add 1)
+quirks:
+packed_gear:
+deployed_gear:
+allies:
+wealth:
+  Lifestyle: Modest
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold: 34
+  platinum: 0

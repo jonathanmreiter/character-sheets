@@ -11,10 +11,10 @@ Meta:
 
 Orcish
     - Gtem Dram: "It can't be helped" 
-    - V'rok Lal Imdorin "Grace and Guilt" - a book about living among the Iceshield Orcs
-
+    - Hor d'Jam Dverak!: "Sleep forever you foul bastard"
+    
 Self
-    - Book - "
+    - V'rok Lal Imdorin "Grace and Guilt" - a book about living among the Iceshield Orcs
 
 World
     - Lords Alliance, dwarves, islands, underdark
@@ -77,11 +77,37 @@ Darrin
     - Neverwinter river splits in half
     - Volcano erupted in the north
     - Nobody knows who was to the north (who could have been displaced?)
+    - Friend along the river -> Noble Hunting Lodge (Falcon)
 
 Neverwinter Wood
     - Goblins there, displaced, or scouts?
     - Castle?
     - Midday
+    - Graywolf 
+    - Thunderbeast tribe to North
+    - Both tribes untrusted
+
+Treeghost Uthgardt
+    - Purple feathers of the Owlbear, purple tattoos, shaman
+    - Speak languages other than Uthgardt
+    - Owl like beaks, playing instruments (post-like didgeridoo, clay jugs)
+    - Speak Bothii
+    - Large trees with huts, spiritual mound, come from far
+    - Birdman -> Feast -> New chief -> 
+    - Old chief passed
+    - Guards grandfather tree
+    - Bluebear -> Owlbear tribe -> Treeghost
+    - Ceremony difficulties
+    - Legend:
+        + Selfishness of the shamans
+        + Turn into owls and spy on rivals
+        + Vengence
+        + Chieftain couldn't find the murderers, but confronted by Owlbear, used as sign to go it alone from the Bluebear -> righteousness and strength
+        + Selected shamans as chieftain
+    - Scarred, middle aged shaman to be chieftain
+    - Time for peace, but last time had a contested chief selection
+    - Occurred at the mound, bloodshed, cursing the mound
+    - Owlbear Mound
 
 Caravan
     - Triboar Trail
