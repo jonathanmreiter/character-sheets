@@ -6,9 +6,9 @@ active: true
 player_name: JR
 classes:
   - Paladin:
-      level: 1
+      level: 2
       subclass: Redemption
-xp: 380
+xp: 540
 
 # Key Stats
 abilities:
@@ -125,14 +125,14 @@ attacks:
           - 2d8 damage + 1d8 for every level higher, +1d8 if for undead
       - Lay on Hands:
         - Action, heal from pool of HP, or spend 5 to cure disease or poison
-        - charges: 5
+        - charges: 10
         - max_charge: 10
       - Fighting Style Protection:
         - Reaction, to impose disadvantage to attack roll of other within 5'
   magic:
    Slots:
       1st:
-        charges: 2
+        charges: 1
         max_charges: 2
     Paladin:
       spell_save: 12

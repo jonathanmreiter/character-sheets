@@ -12,6 +12,7 @@ Meta:
 Orcish
     - Gtem Dram: "It can't be helped" 
     - Hor d'Jam Dverak!: "Sleep forever you foul bastard"
+    - Andris Kol v'Dor: "May the teachings of Sir Andris guide you"
     
 Self
     - V'rok Lal Imdorin "Grace and Guilt" - a book about living among the Iceshield Orcs
@@ -168,3 +169,19 @@ Nathan (Tindo Underbow)
 Kauss
     - Protection
     - Front
+
+Streams near Thundertree
+    - Salmon runs
+    - Goblins to the south, care about valuables
+    - Traps, kidnapping
+    - Salmon goes to Triboar, xHurst
+
+Thundertree
+    - Destroyed by Mount Hotenow
+
+Mount Hotenow
+    - 40 years ago, blew up
+    - Wiped out Thundertree
+    - Lava 
+    - Ruins and castles
+    - 
