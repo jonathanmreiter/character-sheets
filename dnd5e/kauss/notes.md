@@ -67,6 +67,7 @@ Phandalin
         - Burned and pillaged town
     - Maybe need a hospital of some sort?
     - Shrine of Luck -> Umbridge Hill (midwife with potions), south of Phandalin
+    - Guardhouse on west side of Triboar Trail
 
 Darrin
     - Order of the Gauntlet
@@ -86,6 +87,10 @@ Neverwinter Wood
     - Graywolf 
     - Thunderbeast tribe to North
     - Both tribes untrusted
+    - Old growth forests
+    - Stone foundations from houses
+    - North of the river is dangerous
+    - Mount Hotenow erupted some time ago
 
 Treeghost Uthgardt
     - Purple feathers of the Owlbear, purple tattoos, shaman
@@ -108,6 +113,15 @@ Treeghost Uthgardt
     - Time for peace, but last time had a contested chief selection
     - Occurred at the mound, bloodshed, cursing the mound
     - Owlbear Mound
+    - Iluaksiruk (healer) 
+    - Siiġñaq-alukkam (fermented juniper drink) 
+    - akła-q-Nukisaġaq (owl bear)
+    - Returning to high forest
+
+Falcon's Lodge
+    - Hunts for nobles
+    - Trophy room
+    - 
 
 Caravan
     - Triboar Trail
@@ -154,5 +168,3 @@ Nathan (Tindo Underbow)
 Kauss
     - Protection
     - Front
-
-With the cart 

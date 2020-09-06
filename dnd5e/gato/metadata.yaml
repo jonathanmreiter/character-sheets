@@ -1,0 +1,183 @@
+---
+
+# Archetype
+moniker: gato
+active: true
+player_name: JR
+classes:
+  - Bard:
+      level: 1
+      subclass: Glamour
+xp: 0
+
+# Key Stats
+abilities:
+  str: 15
+  dex: 12
+  con: 15
+  int: 10
+  wis: 8
+  cha: 15
+inspiration: 0
+proficiency_bonus: 2
+passive_perception: 9 
+
+# Health
+hp:
+  current: 10
+  max: 10
+  temp: 0
+hit_dice:
+  total: 1d8+2
+  remaining: 1
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - studded_leather: 12
+  - warforged: 1
+  - shield: 2
+  - dex: 1
+  - total: 16
+saving_throws:
+  - cha: 4
+  - dex: 3
+
+# Movement
+initiative:
+  - total: 1
+speed:
+  - warforged: 30
+
+# Skills
+core_proficiencies:
+  Athletics:
+    - str: 2
+    - total: 4
+  Performance:
+    - cha: 2
+    - total: 4
+  SleightofHand:
+    - dex: 1
+    - total: 3
+  Intimidation:
+    - cha: 2
+    - total: 4
+  Deception:
+    - cha: 2
+    - total: 4
+bg_proficiencies:
+  languages:
+    - Common
+    - Tabaxi
+  trades:
+  tools:
+    - Horns
+    - Lutes
+    - Drums
+    - Pipes
+    - Thieves Tools
+    - Herbalism Kit
+non_proficiencies:
+  AnimalHandling:
+    - wis: -1
+  History:
+    - int: 0
+  Insight:
+    - wis: -1
+  Persuasion:
+    - cha: 2
+  Deception:
+    - cha: 2
+  Investigation:
+    - int: 0
+  Stealth:
+    - dex: 1
+  Arcana:
+    - int: 0
+  Acrobatics:
+    - dex: 1
+  Nature:
+    - int: 0
+  Religion:
+    - wis: -1
+  Survival:
+    - wis: -1
+  Perception:
+    - wis: -1
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Dalek Arm (spear):
+        atk_bonus: 4
+        type: Piercing
+        dmg: 1d6+2
+        ammo: N/A
+    - Mega Buster (hand crossbow):
+        atk_bonus: 3
+        type: Piercing
+        dmg: 1d6+1
+        special: 30/120, loading
+    - Gato's Mic (horn instrument):
+        Spell Focus
+  special:
+    Warforged:
+    Bard:
+      - Bardic Inspiration: 
+        - Bonus Action, give d6 to one creature within 60', add to one check can wait until rolled
+        - charges: 2
+        - max_charges: 2
+  magic:
+   Slots:
+      1st:
+        charges: 2
+        max_charges: 2
+    Bard:
+      spell_save: 12
+      spell_attack: 4
+      spells_known: 4
+      cantrips:
+        ready:
+          - Mending
+          - Vicious Mockery
+        not_ready:
+      1st:
+        ready:
+          - Faerie Fire
+          - Cure Wounds
+          - Bane
+          - Feather Fall
+        not_ready:
+  attuned_items:
+    -
+
+# Inventory
+attributes:
+  Warforged:
+    - Poison resistence and advantage to saving throws
+    - Don't need to eat, drink, breathe; sentry's rest (6 hours)
+  Bard:
+quirks:
+packed_gear:
+  - Integrated gear
+    - Plush leather case
+    - Retractable shield
+    - "Dalek" manipulator
+    - Mega Buster pellet gun
+    - Bass drum belly
+  - Fine clothes (won from a carnival game)
+  - Disguise kit (confiscated)
+  - Grinner gold plated ring
+
+deployed_gear:
+allies:
+wealth:
+  Lifestyle: Modest
+  copper: 0
+  silver: 0
+  electrum: 0
+  gold: 25
+  platinum: 0
