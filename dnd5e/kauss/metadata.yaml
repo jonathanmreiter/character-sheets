@@ -1,14 +1,17 @@
 ---
 
+Condition:
+  Exhausted 1 (Disadv on ability checks)
+
 # Archetype
 moniker: kauss
 active: true
 player_name: JR
 classes:
   - Paladin:
-      level: 2
+      level: 3
       subclass: Redemption
-xp: 540
+xp: 1230
 
 # Key Stats
 abilities:
@@ -126,24 +129,29 @@ attacks:
       - Lay on Hands:
         - Action, heal from pool of HP, or spend 5 to cure disease or poison
         - charges: 10
-        - max_charge: 10
+        - max_charge: 15
       - Fighting Style Protection:
         - Reaction, to impose disadvantage to attack roll of other within 5'
+      - Channel Divinity:
+          - Emissary of Peace - Bonus, +5 Persuasion checks for next 10m
+          - Rebuke the Violent - Reaction to dmg w/in 30'. Force saving throw, takes radiant damage equal to damage it dealt
   magic:
    Slots:
       1st:
-        charges: 1
-        max_charges: 2
+        charges: 0
+        max_charges: 3
     Paladin:
       spell_save: 12
       spell_attack: 4
       spells_known: 3
       1st:
         ready:
-        not_ready:
           - Bless
           - Cure Wounds
           - Shield of Faith
+          - Sanctuary
+          - Sleep
+        not_ready:
   attuned_items:
     -
 
@@ -154,6 +162,7 @@ attributes:
     - Powerful Build (one size larger for carrying, push, drag, lift)
     - Primal Intuition
   Paladin:
+    - Divine Health - immune to disease
 quirks:
   - Axebeak scar along midsection
   - Claw scar along the face
@@ -165,14 +174,16 @@ packed_gear:
   - Sir Andris' Uhlan, (guarded lance, ironwood ash branch stripe stained navy blue and grey, tempered steel point)
   - Traveller's Clothes
   - Signet of the Squire of the Taikos Order
-  - Owlbear Brew (2-3 drinks)
+  - Owlbear Brew (3 drinks)
+    * DC10 Con, poison for an hour
+    * Advantage on Insight, Nature, Perceptoion until next dawn
 
 deployed_gear:
 allies:
 wealth:
   Lifestyle: Modest
   copper: 0
-  silver: 0
+  silver: 8
   electrum: 0
-  gold: 64
+  gold: 69
   platinum: 0

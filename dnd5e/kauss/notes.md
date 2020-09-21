@@ -184,4 +184,8 @@ Mount Hotenow
     - Wiped out Thundertree
     - Lava 
     - Ruins and castles
-    - 
+
+Thundertree
+    - Pegasus statue by trail -> Nyoiki
+    - Evil Temple of an evil druid
+    - Giant daddy long legs spider + etter caps?
