@@ -1,3 +1,12 @@
+# Bonepile
+
+## Rachel (Ara)
+- Monk of Corellon
+- Carpenter (Back)
+- Reserved
+- DEAD :(
+
+
 Meta:
     Approach to DM:
         - Ethical choices: ambiguity in choices
@@ -122,7 +131,6 @@ Treeghost Uthgardt
 Falcon's Lodge
     - Hunts for nobles
     - Trophy room
-    - 
 
 Caravan
     - Triboar Trail
@@ -143,10 +151,12 @@ Alston
     - Gnome cook -> Egg cooker, with tinker portable stove
     - Measure barometers
 
-Rachel (Ara)
-    - Monk of Corellon
-    - Carpenter (Back)
-    - Reserved
+Rachel (Gilmythrie)
+    - Letter
+    - Daughters/Sons of Allegandar
+    - Druid Wood Elf, freckled, facepaint
+    - Member of Enclave
+    - Daughter
 
 AJ (Matta)
     - Changeling Rogue
@@ -189,3 +199,71 @@ Thundertree
     - Pegasus statue by trail -> Nyoiki
     - Evil Temple of an evil druid
     - Giant daddy long legs spider + etter caps?
+
+The High Road
+    - Refurbed over last 50 years, heads through Leilon through the south
+    - Clergy, big sun hats and belts. Missionaries? Going south and north on The High Road
+    - Mount Hotenow eruption, 50y ago, levelled the city and ushered in a dark age, chasm to underdark
+    - On a cliff face of the Sword Coast
+    - Big city wall, ringing the Neverwinter River, castle on hill
+    - Guards at Southwest wall
+      - Circle Blue Background
+
+Neverwinter
+    - Rydoth in NW knows about the evil druid -> Neverwinter botanicals
+    - Hall of Justice for exchange of gold to currency, 1% rate, jeweler
+    - No entry
+      - Castle Neverwinter
+      - Graveyards
+      - Chasm
+    - Stay at Eigersstor
+    - Xanmorn's
+    - Anmarie is the evil druid?
+
+Hall of Justice
+    - Kerrack
+    - Old manor for the mayor
+    - Place of Tyr
+    - Skeleton of a leviathan
+    - Common Cause gift shop for the Order of the Gauntlet -> Kerrack Wheatflow
+      - Help needed -> Graveyards
+      - Priests of Kelamore
+    - Tower District Orcs -> Outreach with Ilmater
+      - Sisters of Allander
+      - Protection of Priests
+    - Noote -> Driftwood Tavern
+
+Meiwiki Castle in Neverwinter
+
+Shrine of Compassion
+    - Ilmater -> Clock Tower
+    - Orcish Ghetto
+    - Rundown
+    - Cloak Tower -> From the north of the Tower District
+
+Tower District
+    - Cloaked figures, order of guilded eye -> Followers of Javen
+    - Stay safe
+
+Many Arrow Orcs
+    - Ghetto around the Cloak Tower
+    - Bluelake camps -> Lady - what was her name
+    - Needs material
+    - Obold the 17th ordered migration to Neverwinter for exploration
+    - Community relations
+    - Order of the Guilded Eye and The Fifth
+      - (In Helm's Hold, southeast of the city)
+
+Helm's Hold
+    - Village
+    - Helm Cathedral
+    - Taken on ill and sick of the city -> Plague
+
+
+# Potential Buys
+1. Horseman's Pick (Warhammer - 15gp) - silvered (100gp)
+2. Splint mail (200gp) - Platemail (1500gp)
+3. Riding horse (75gp) - Warhorse (400gp)
+4. Potion of Healing (50gp)
+5. Heavy Crossbow and 10 bolts (60gp)
+6. Porter (6gp for one month) - Squire (60gp for one month)

@@ -15,7 +15,6 @@
 - Plays an exotic Tabaxi form of music known as Norteno
 
 ## Factions
-- Taikos Order (Squire)
 
 ## Ludography
 - Gato, Chrono Trigger

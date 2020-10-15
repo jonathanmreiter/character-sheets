@@ -11,13 +11,8 @@ Ravine
 Kalkrix - bugbear stole dragon -> Usrael will know
 4 humans, still below
 
-There's a lady who's sure
-All that glitters is gold
-And she's buying a stairway to Heaven
-When she gets there she knows
-If the stores are all closed
-With a word she can get what she came for
-Oh oh oh oh and she's buying a stairway to Heaven
+Outcast?
+
 
 # Scootway o Kevin
 Ter zed un loon k'sir
@@ -27,3 +22,9 @@ Ven ze git dey ze knü
 kul dor en vosed
 wit a verb ze ken jit zit ze com kur
 oh oh oh oh and ze binten a scootway o Kevin
+
+# Ender Zanmen
+Zay'r preers, lilun
+Dun forgit, masun, too cludeone
+Weel tuck'n, warmthin, kipfre formzin
+Till the zanmen he come

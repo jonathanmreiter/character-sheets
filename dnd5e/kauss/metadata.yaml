@@ -154,6 +154,8 @@ attacks:
         not_ready:
   attuned_items:
     -
+  bonds:
+    - 1 bond with the Tyr and Hall of Justice
 
 # Inventory
 attributes:
@@ -185,5 +187,5 @@ wealth:
   copper: 0
   silver: 8
   electrum: 0
-  gold: 69
+  gold: 49
   platinum: 0

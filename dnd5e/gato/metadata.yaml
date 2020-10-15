@@ -128,13 +128,13 @@ attacks:
     Bard:
       - Bardic Inspiration: 
         - Bonus Action, give d6 to one creature within 60', add to one check can wait until rolled
-        - charges: 2
+        - charges: 1
         - max_charges: 2
   magic:
    Slots:
       1st:
-        charges: 2
-        max_charges: 2
+        charges: 3
+        max_charges: 3
     Bard:
       spell_save: 12
       spell_attack: 4
@@ -167,17 +167,19 @@ packed_gear:
     - Retractable shield
     - "Dalek" manipulator
     - Mega Buster pellet gun
-    - Bass drum belly
+    - Bongo belly
   - Fine clothes (won from a carnival game)
   - Disguise kit (confiscated)
   - Grinner gold plated ring
+  - Potion of Healing
+  - Basket of Four Loko mushrooms
 
 deployed_gear:
 allies:
 wealth:
   Lifestyle: Modest
   copper: 0
-  silver: 0
+  silver: 157
   electrum: 0
   gold: 25
   platinum: 0
