@@ -259,6 +259,18 @@ Helm's Hold
     - Helm Cathedral
     - Taken on ill and sick of the city -> Plague
 
+Nootay
+
+
+Eigersstor
+    - Original name for Neverwinter
+
+Guards
+    - Neverwinter Guards v. Wintershield Watch
+
+The Enclave
+    - Nel Alwei
+    - Prisoner is a female drow
 
 # Potential Buys
 1. Horseman's Pick (Warhammer - 15gp) - silvered (100gp)

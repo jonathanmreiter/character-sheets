@@ -1,7 +1,6 @@
 ---
 
-Condition:
-  Exhausted 1 (Disadv on ability checks)
+condition:
 
 # Archetype
 moniker: kauss
@@ -11,7 +10,7 @@ classes:
   - Paladin:
       level: 3
       subclass: Redemption
-xp: 1230
+xp: 1280
 
 # Key Stats
 abilities:
@@ -27,7 +26,7 @@ passive_perception: 11
 
 # Health
 hp:
-  current: 15
+  current: 18
   max: 18
   temp: 0
 hit_dice:
@@ -135,6 +134,8 @@ attacks:
       - Channel Divinity:
           - Emissary of Peace - Bonus, +5 Persuasion checks for next 10m
           - Rebuke the Violent - Reaction to dmg w/in 30'. Force saving throw, takes radiant damage equal to damage it dealt
+          - charges: 0
+          - max_charges: 1
   magic:
    Slots:
       1st:
@@ -155,7 +156,7 @@ attacks:
   attuned_items:
     -
   bonds:
-    - 1 bond with the Tyr and Hall of Justice
+    - 1x Tyr and Hall of Justice
 
 # Inventory
 attributes:

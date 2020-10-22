@@ -1,0 +1,194 @@
+---
+
+condition:
+
+# Archetype
+moniker: gomez
+active: true
+player_name: JR
+classes:
+  - Warlock:
+      level: 5
+      subclass: The Genie
+xp: 1280
+
+# Key Stats
+abilities:
+  str: 9
+  dex: 14
+  con: 13
+  int: 12
+  wis: 10
+  cha: 19
+inspiration: 0
+proficiency_bonus: 3
+passive_perception: 10
+
+# Health
+hp:
+  current: 25
+  max: 25
+  temp: 0
+hit_dice:
+  total: 5d6+5
+  remaining: 5
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - studded: 12
+  - buckler: 2
+  - total: 16
+saving_throws:
+  - cha: 7
+  - wis: 3
+
+# Movement
+initiative:
+  - total: 2
+speed:
+  - aasimar: 30
+
+# Skills
+core_proficiencies:
+  Arcana:
+    - int: 1
+    - total: 4 
+  History:
+    - int: 1
+    - total: 4
+  Investigation:
+    - int: 1
+    - total: 4
+  Persuasion:
+    - cha: 4
+    - total: 7
+bg_proficiencies:
+  languages:
+    - Common
+    - Celestial
+    - Infernal
+  trades:
+    - Tinker
+non_proficiencies:
+  AnimalHandling:
+    - wis: 0
+  Insight:
+    - wis: 0
+  Athletics:
+    - str: -1
+  Deception:
+    - cha: 4
+  Stealth:
+    - dex: 2
+  Acrobatics:
+    - dex: 2
+  Nature:
+    - int: 1
+  Religion:
+    - wis: 0
+  SleightofHand:
+    - dex: 2
+  Survival:
+    - wis: 0
+  Performance:
+    - cha: 4
+  Perception:
+    - wis: 0
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Epee (Short Sword):
+        atk_bonus: 5
+        type: Piercing
+        dmg: 1d6+3
+        ammo: N/A
+    - Light Crossbow:
+        atk_bonus: 5
+        type: Piercing
+        dmg: 1d8+2
+        special: 80/320 range, reloading
+    - Eldritch Blase:
+        atk_bonus: 7
+        type: Force (Thunder)
+        dmg: 2x1d10
+        special: 120ft, can push target back 10ft in a line
+  special:
+    Fallen Aasimar:
+      - Healing Hands:
+        - Action, Heal 5 (recover Long Rest)
+        - charges: 1
+        - max_charges: 1
+      - Necrotic Shroud:
+        - Action, 10' radius DC 15 Cha save or frightened. 1 minute, +5 Necrotic damage to one target (recover Long Rest)
+    Genie Warlock:
+      - Bottled Respite:
+        - Action, Enter 20 foot extradimensional cylinder for up to 6 hours, can hear outside (recover Long Rest)
+        - AC is 15, HP 8.
+        - Form of a cigar box
+        - charges: 1
+        - max_charges: 1
+      - Genie's Wrath:
+        - When hit with attack roll, +3 thunder damage
+      - Pact of the Chain:
+        - 10gp
+        - 1hr, can summon Thing as any normal Familiar or Pseudodrago, Imp, Quasit, Sprite
+        - Attack -> Attack using the Familiar's reaction
+      - Invocation - Armor of Lies (Mirror Image at will)
+      - Invocation - Misty Visions (Silent Vision at will)
+      
+  magic:
+   Slots:
+      3rd:
+        charges: 2
+        max_charges: 2
+    Warlock:
+      spell_save: 15
+      spell_attack: 7
+      spells_known: 6
+      cantrips:
+        ready:
+          - Light
+          - Minor Illusion
+          - Eldritch Blast
+          - Prestidigation
+      3rd:
+        ready:
+          - Phantasmal Force
+          - Major Image
+          - Fear
+          - Invisibility
+          - Dispel Magic
+          - Counterspell
+  attuned_items:
+    -
+  bonds:
+    - 
+
+# Inventory
+attributes:
+  Fallen Aasimar:
+    - 60' Darkvision
+    - Resistance to Necrotic and Radiant damage
+  Genie Warlock:
+    - 
+quirks:
+packed_gear:
+  - Cigar box (Genie)
+  - Dungeoneer's pack
+  - Tinker tools
+  - Merchant's scale
+  - Fine clothes
+
+deployed_gear:
+allies:
+wealth:
+  Lifestyle: Modest
+  copper: 0
+  silver: 8
+  electrum: 0
+  gold: 150
+  platinum: 0
