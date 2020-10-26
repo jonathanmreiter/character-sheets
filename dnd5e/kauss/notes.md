@@ -229,9 +229,9 @@ Hall of Justice
       - Help needed -> Graveyards
       - Priests of Kelamore
     - Tower District Orcs -> Outreach with Ilmater
-      - Sisters of Allander
+      - Sisters of Allagander
       - Protection of Priests
-    - Noote -> Driftwood Tavern
+    - Nootay, Owner of Driftwood Tavern
 
 Meiwiki Castle in Neverwinter
 
@@ -260,7 +260,11 @@ Helm's Hold
     - Taken on ill and sick of the city -> Plague
 
 Nootay
-
+    - Some sort of peacemaker
+    - Lead for fixing things
+    - Swamp Docks in Blue Lake
+    - Find the person who gave the order
+    - Gotta figure out about mentorship
 
 Eigersstor
     - Original name for Neverwinter
@@ -271,6 +275,17 @@ Guards
 The Enclave
     - Nel Alwei
     - Prisoner is a female drow
+    - Prisoner is part of the Zhentarim?
+
+Beached Leviathan
+    - West side -> Ladder -> Swamp Docks -> Large Shipi
+    - Find Morgan
+    - 2 places in Sewers - follow alley to end -> North or East (east first)
+    - Then North to cistern, search SE walls for hole 
+
+Underground
+    - Scener?
+    - Potion of healing, 1 short rest
 
 # Potential Buys
 1. Horseman's Pick (Warhammer - 15gp) - silvered (100gp)

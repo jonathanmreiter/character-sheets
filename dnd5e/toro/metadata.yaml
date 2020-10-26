@@ -1,0 +1,188 @@
+---
+
+condition:
+
+# Archetype
+moniker: toro
+active: true
+player_name: JR
+classes:
+  - Barbarian:
+      level: 1
+  - Rogue:
+      level: 4
+      subclass: Revived
+xp: 6500
+
+# Key Stats
+abilities:
+  str: 19
+  dex: 16
+  con: 16
+  int: 10
+  wis: 12
+  cha: 8
+inspiration: 0
+proficiency_bonus: 3
+passive_perception: 18
+
+# Health
+hp:
+  current: 43
+  max: 43
+  temp: 0
+hit_dice:
+  total: 1d12+4d8+15
+  remaining: 5
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - barbarian: 16
+saving_throws:
+  - dev: 6
+  - int: 2
+
+# Movement
+initiative:
+  - total: 1
+speed:
+  - minotaur: 30
+
+# Skills
+core_proficiencies:
+  Acrobatics:
+    - dex: 3
+    - total: 5
+  Athletics (Exp):
+    - str: 4
+    - total: 10
+  Investigation:
+    - int: 0
+    - total: 3
+  Perception (Exp):
+    - wis: 1
+    - total: 7
+  Intimidation:
+    - cha: -1
+    - total: 2
+  Stealth:
+    - dex: 3
+  Performance:
+    - cha: -1
+    - total: 2
+  Survival (token):
+    - wis: 1
+    - total: 4
+bg_proficiencies:
+  languages:
+    - Common
+    - Minotaur
+    - Thieves Cant
+  trades:
+    - Thieves Tools
+    - Disguise Kit
+non_proficiencies:
+  Arcana:
+    - int: 0
+  History:
+    - int: 0
+  Persuasion:
+    - cha: -1
+  AnimalHandling:
+    - wis: 1
+  Deception:
+    - cha: -1
+  Nature:
+    - int: 0
+  Religion:
+    - wis: 1
+
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    Powerbomb / Lariat (Greataxe):
+      atk_bonus: 7
+      type: Slashing
+      dmg: 1d12+4
+    Kesagiri Chop (Rapier):
+      atk_bonus: 6
+      type: Piercing
+      dmg: 1d8+3
+      other: Finesse (can sneak attack)
+    Bonegerang (Shortbow):
+      atk_bonus: 6
+      type: Piercing
+      dmg: 1d6+3
+      other: Can sneak attack
+    Horns:
+      atk_bonus: 7
+      type: Piercing
+      dmg: 1d6+4
+      other: Can be used with Goring Rush
+    Bolts from the Grave:
+        atk_bonus: 6
+        type: Necrotic
+        dmg: 2d6+3
+        ammo: N/A
+        range: 30'
+
+  special:
+    Minotaur:
+      Hammering Horns:
+        - Bonus, after you hit with melee in Attack action, shove with Horns up to 10'
+        - Within 5', cannot be Huge or larger
+        - Strength DC 15
+      Goring Rush:
+        - Bonus, After you use a Dash Action and move at least 20 feet, you can attack with Horns
+    Revived Rogue:
+      Sneak Attack:
+        - When you hit with attack or have advantage with Finesse or Ranged
+        - 2d6 damage to one creature
+      Cunning Action:
+        - Bonus action to Dash, Disengage, or Hide
+    Barbarian:
+      Rage:
+        - Bonus, enter rage for 1m, regain with long rest
+        - Advantage on strength rolls
+        - +2 dmg with strength melee
+        - Resistence to b/p/slashing damage
+        - charge: 2
+        - max_charge: 2
+      
+  magic:
+  attuned_items:
+    - Gauntlets of Ogre Power
+  bonds:
+    - 
+
+# Inventory
+attributes:
+  Minotaur:
+  Revived Rogue:
+    Tokens of Past Lives:
+      - On long rest, gain one skill or tool proficiency of choise
+  Barbarian:
+
+quirks:
+packed_gear:
+  - Dungeoneer's Pack
+  - Costume of El Toro
+  - 2xPotion of Healing
+  - Healer's Kit
+  - Thieves Kit
+  - Disguise Kit
+  - Bag of Ball Bearings
+
+deployed_gear:
+allies:
+wealth:
+  Lifestyle: Modest
+  copper: 0
+  silver: 8
+  electrum: 0
+  gold: 10
+  platinum: 0
