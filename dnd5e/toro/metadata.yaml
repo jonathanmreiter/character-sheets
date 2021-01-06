@@ -150,7 +150,7 @@ attacks:
         - Advantage on strength rolls
         - +2 dmg with strength melee
         - Resistence to b/p/slashing damage
-        - charge: 2
+        - charge: 1
         - max_charge: 2
       
   magic:

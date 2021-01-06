@@ -8,9 +8,9 @@ active: true
 player_name: JR
 classes:
   - Paladin:
-      level: 3
+      level: 4
       subclass: Redemption
-xp: 1280
+xp: 2870
 
 # Key Stats
 abilities:
@@ -19,19 +19,19 @@ abilities:
   con: 14
   int: 10
   wis: 12
-  cha: 15
-inspiration: 0
+  cha: 16
+inspiration: true 
 proficiency_bonus: 2
 passive_perception: 11
 
 # Health
 hp:
-  current: 18
-  max: 18
+  current: 34
+  max: 36
   temp: 0
 hit_dice:
-  total: 2d10+4
-  remaining: 1
+  total: 4d10+8
+  remaining: 4
 death:
   success: 0
   failure: 0
@@ -42,7 +42,7 @@ ac:
   - kite_shield: 2
   - total: 18
 saving_throws:
-  - cha: 4
+  - cha: 5
   - wis: 3
 
 # Movement
@@ -66,8 +66,8 @@ core_proficiencies:
     - str: 3
     - total: 5
   Persuasion:
-    - cha: 2
-    - total: 4
+    - cha: 3
+    - total: 5
 bg_proficiencies:
   languages:
     - Common
@@ -79,7 +79,7 @@ bg_proficiencies:
     - Brewing
 non_proficiencies:
   Deception:
-    - cha: 2
+    - cha: 3
   Investigation:
     - int: 0
   Stealth:
@@ -97,7 +97,7 @@ non_proficiencies:
   Survival:
     - wis: 1
   Performance:
-    - cha: 2
+    - cha: 3
   Perception:
     - wis: 1
   
@@ -114,32 +114,39 @@ attacks:
         type: Piercing
         dmg: 1d12+3
         special: 5' reach, two hands if not mounted
+    - Goblin Longbow:
+        atk_bonus: 1
+        type: Piercing
+        dmg: 1d8-1
+        special: 150/600
   special:
     Orc:
       - Aggressive (bonus, move speed towards an enemy, have to be closer)
     Paladin:
       - Divine Sense: 
         - Action, aware Celestial, Fiend, Undead 60' not behind cover
-        - charges: 3
-        - max_charges: 3
+        - charges: 4
+        - max_charges: 4
       - Divine Smite:
           - 1 spell slot
           - 2d8 damage + 1d8 for every level higher, +1d8 if for undead
       - Lay on Hands:
         - Action, heal from pool of HP, or spend 5 to cure disease or poison
-        - charges: 10
-        - max_charge: 15
-      - Fighting Style Protection:
-        - Reaction, to impose disadvantage to attack roll of other within 5'
+        - charges: 7
+        - max_charge: 20
+      - Fighting Style Interception:
+        - Reaction
+        - When a creature you can see hits a target, other than you, within 5 feet of you with an attack
+        - Reduce the damage the target takes by 1d10+2
       - Channel Divinity:
           - Emissary of Peace - Bonus, +5 Persuasion checks for next 10m
           - Rebuke the Violent - Reaction to dmg w/in 30'. Force saving throw, takes radiant damage equal to damage it dealt
-          - charges: 0
+          - charges: 1
           - max_charges: 1
   magic:
    Slots:
       1st:
-        charges: 0
+        charges: 1
         max_charges: 3
     Paladin:
       spell_save: 12
@@ -166,6 +173,9 @@ attributes:
     - Primal Intuition
   Paladin:
     - Divine Health - immune to disease
+    - Actor:
+      - Advantage on Deception, Performance when pretending to be someone else
+      - Can mimic someone's speech or sounds, if heard for at least a minute. Insight v Deception check.
 quirks:
   - Axebeak scar along midsection
   - Claw scar along the face
@@ -180,13 +190,14 @@ packed_gear:
   - Owlbear Brew (3 drinks)
     * DC10 Con, poison for an hour
     * Advantage on Insight, Nature, Perceptoion until next dawn
+  - Tent
 
 deployed_gear:
 allies:
 wealth:
   Lifestyle: Modest
   copper: 0
-  silver: 8
+  silver: 268
   electrum: 0
-  gold: 49
+  gold: 99
   platinum: 0

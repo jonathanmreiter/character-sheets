@@ -277,16 +277,83 @@ The Enclave
     - Prisoner is a female drow
     - Prisoner is part of the Zhentarim?
 
-Beached Leviathan
+Beached Leviathan (Morgan)
     - West side -> Ladder -> Swamp Docks -> Large Shipi
     - Find Morgan
     - 2 places in Sewers - follow alley to end -> North or East (east first)
     - Then North to cistern, search SE walls for hole 
+    - Told them the secrets
 
 Underground
     - Scener?
     - Potion of healing, 1 short rest
 
+Drow in sewers (Bregan D'aerthe)
+    - Crab amulet
+    - Interrupted mission
+    - Assassination attempt not through the drow of the sewers
+    - Infiltration within Bregan D'aerthe
+    - Brokered kidnapping, not assassination
+
+Daughters of Alagondar
+    - Warehouse in southern docks
+    - Captive
+    - Under guard
+    - Who gave the order to kill?
+    - Could this be to initative strife?
+    - 6 workers, 2 on the west, 2 on the south
+
+Warehouse
+    - Crowe Shipping
+
+Neverwinter
+    - Fire at docks
+    - Fire in south east of Neverwinter (Tower District)
+    - Decades ago:
+      -  Neverember stabilized the city, but was seen as an occupying force, a form of aristocracy
+      -  Sons of Alagondar rebelled against this
+      -  Cataclysm destroyed Castle Never and destroyed the ancient regime
+   -  Added Wintershield Watch -> assimilated
+   -  Daughts of Alagondar are against the watch
+
+Dead Rats?
+
+Gilmithrie Grandson
+    - In blue lake district
+
+The Guild
+    - Shops destroyed by Daughters
+    - Not cared by the shops
+    - Leverage over her by means of a syndicate
+    - Idea came from somebody else
+
+Triboar Trail
+    - Goblins
+    - Kragmaw Clan
+    - Not sure where their settlements are
+    - Roadhouse on the Triboar Trail -> Capture and question -> FOB
+
+Guardhouse
+    - Kasimir (Saltmarsh)
+    - Isil (Neverwinter)
+    
+Farmhouse
+    - Get goblin from Farmhouse -> Stufi
+    - Counter attack
+    - Stufi taken, crisped, captured a different goblin
+    - Kasimir rebuilding
+    - Blubs the Goblin
+
+Castle
+    20? Kragmaw goblins
+    5-10 hobgoblins
+    wolves in SE
+    Volblem (Shaman?) and Big Carl in N
+        - All the treasure in the castle
+        - Magic
+        - Wants to teach?
+        - We could foment a rebellion
+    Maybe more?
 # Potential Buys
 1. Horseman's Pick (Warhammer - 15gp) - silvered (100gp)
 2. Splint mail (200gp) - Platemail (1500gp)
@@ -294,3 +361,8 @@ Underground
 4. Potion of Healing (50gp)
 5. Heavy Crossbow and 10 bolts (60gp)
 6. Porter (6gp for one month) - Squire (60gp for one month)
+
+# Actions
+1. Hire somebody to work out the title for the Triboar Roadhouse
+   1. Give back to the original farmer, with interest free loan to resettle
+   2. Buy out deed, tithe to the Order of Taikos

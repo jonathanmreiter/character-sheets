@@ -1,0 +1,190 @@
+---
+
+condition:
+
+# Archetype
+moniker: jareth
+active: false
+player_name: JR
+classes:
+  - Ranger:
+      level: 5
+      subclass: Beastmaster
+xp: 6500
+
+# Key Stats
+abilities:
+  str: 12
+  dex: 18
+  con: 10
+  int: 8
+  wis: 16
+  cha: 13
+inspiration: 0
+proficiency_bonus: 3
+passive_perception: 13
+
+# Health
+hp:
+  current: 36
+  max: 36
+  temp: 0
+hit_dice:
+  total: 4d10
+  remaining: 4
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - leather: 11
+  - total: 15
+saving_throws:
+  - str: 4
+  - wis: 6
+
+# Movement
+initiative:
+  - roll with advantage
+  - total: 4
+speed:
+  - walk: 25
+  - fly: 50
+
+# Skills
+core_proficiencies:
+  Animal Handling:
+    - wis: 3
+    - total: 6
+  Athletics:
+    - str: 1
+    - total: 4
+  Survival:
+    - wis: 3
+    - total: 6
+  Nature:
+    - int: -1
+    - total: 2
+  Investigation:
+    - int: -1
+    - total: 2
+bg_proficiencies:
+  languages:
+    - Common
+    - Aarakocra
+    - Auran
+    - Giant
+    - Goblin
+  trades:
+    - Carpentry
+non_proficiencies:
+  Persuasion:
+    - cha: 2
+  Arcana:
+    - int: -1
+  Acrobatics:
+    - dex: 4
+  Stealth:
+    - dex: 4
+  Religion:
+    - wis: 3
+  SleightofHand:
+    - dex: 3
+  Performance:
+    - cha: 2
+  Perception:
+    - wis: 3
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Hunky and Dory (javelins):
+        atk_bonus: 9
+        type: Piercing
+        dmg: 1d6+4
+        ammo: 2
+        range: 30/120
+    - Hartbreaker (longbow):
+        atk_bonus: 9
+        type: Piercing
+        dmg: 1d8+4
+        ammo: 20
+        range: 30/120
+    - Talons:
+        atk_bonus: 4
+        type: Piercing
+        dmg: 1d4+1
+  special:
+    Ranger:
+      - Natural Explorer:
+        - First turn, attack rolls have advantage against creatures not yet acted
+      - Favored Enemy:
+        - +2 damage rolls against Beasts
+        - Advantage on Survival checks to track, Intelligence to recall info
+      - Primal Companion:
+        - One of the companions included in this folder
+        - Bonus: do something other than Dodge
+        - Action: take an Attack Action
+        - Can take any action if incapacitated
+        - Action: If dead within 1 hour, revive (1m, all HP back)
+        - Recover and choose different beast with long rest
+      - Coordinated Attack:
+        - Action: If using attack, Primal Companion can use Reaction to make a melee attack
+  magic:
+   Slots:
+      1st:
+        charges: 4
+        max_charges: 4
+      2nd:
+        charges: 2
+        max_charges: 2
+    Ranger:
+      spell_save: 14
+      spell_attack: 6
+      spells_known: 4
+      1st:
+        ready:
+          - Speak with Animals
+          - Goodberry
+          - Cure Wounds
+          - Zephyr Strike
+        not_ready:
+      2nd:
+        ready:
+          - Silence
+        not_ready:
+  attuned_items:
+    -
+  bonds:
+
+# Inventory
+attributes:
+  Ranger:
+    - Natural Explorer:
+      - You	ignore difficult terrain
+      - You	have advantage on initiative rolls
+      - Difficult terrain doesn't slow group
+      - Cannot become lost unless by magical means
+      - Always alert for danger
+      - When alone, can move normal speed and still stealth
+      - When foraging, find double food
+      - When tracking, learn exact number, size, how long ago they passed through
+    - Fighting Style - Archery
+    - Primal Awareness
+  Outlander:
+    - You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you.
+    - In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.
+quirks:
+packed_gear:
+  - Explorer's Pack
+
+deployed_gear:
+allies:
+wealth:
+  Lifestyle: 
+  copper: 0
+  silver: 8
+  electrum: 0
+  gold: 0
+  platinum: 0

@@ -1,0 +1,51 @@
+Beast of Land (Medium):
+  Name: Expresso (an ostrich of unusual size and stubbornness)
+  AC: 16
+  HP: 30
+  Speed: (40 walk, 40 climb)
+  Statblock: 14/14/15/8/14/11
+  Senses: Darkvision 60. passive perception 12
+  Actions:
+    Maul: 
+      atk_bonus: 6
+      type: slashing
+      dmg: 1d8+5
+  Feats:
+    Primal Bond: +3 to all ability checks or saves
+    Charge: 
+      - 20' straight move and Maul in turn
+      - +1d6 slashing damamge
+      - DC 14 Str save or knocked prone
+  
+Beast of Sea (Medium):
+  Name: Noot Noot (a mischevious penguin with an unusually long beak)
+  AC: 16
+  HP: 30
+  Speed: (5 walk, 60 swim)
+  Statblock: 14/14/15/8/14/11
+  Senses: Darkvision 60. passive perception 12
+  Actions:
+    Binding Strike: 
+      atk_bonus: 6
+      type: piercing/bludgeoning
+      dmg: 1d6+5
+        - Target is grappled (DC 14 escape with Athletics or Acrobatics)
+  Feats:
+    Primal Bond: +3 to all ability checks or saves
+    Amphibious: Breaths air and water
+
+Beast of Sky (Small):
+  Name: Doyle (a concrete-grey owl that looks identical to Jareth that is stoic and solid)
+  AC: 16
+  HP: 30
+  Speed: (10 walk, 60 fly)
+  Statblock: 14/14/15/8/14/11
+  Senses: Darkvision 60. passive perception 12
+  Actions:
+    Shred: 
+      atk_bonus: 6
+      type: slashing
+      dmg: 1d4+6
+  Feats:
+    Primal Bond: +3 to all ability checks or saves
+    Flyby: Flying doesn't provoke opportunity attacks

@@ -1,0 +1,187 @@
+---
+
+condition:
+
+# Archetype
+moniker: flint
+active: false
+player_name: JR
+classes:
+  - Cleric:
+      level: 3
+      subclass: Forge
+xp: 900
+
+# Key Stats
+abilities:
+  str: 13
+  dex: 8
+  con: 16
+  int: 10
+  wis: 16
+  cha: 12
+inspiration: 0
+proficiency_bonus: 2
+passive_perception: 11
+
+# Health
+hp:
+  current: 30
+  max: 30
+  temp: 0
+hit_dice:
+  total: 3d8+9+3
+  remaining: 3
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - splint: 17
+  - heater shield: 2
+  - blessing of the forge: 1
+  - total: 20
+saving_throws:
+  - cha: 3
+  - wis: 5
+
+# Movement
+initiative:
+  - total: -1
+speed:
+  - dwarf: 25
+
+# Skills
+core_proficiencies:
+  Deception:
+    - cha: 1
+    - total: 3
+  History:
+    - int: 0
+    - total: 2
+  Insight:
+    - wis: 3
+    - total: 6
+  Athletics:
+    - str: 1
+    - total: 3
+bg_proficiencies:
+  languages:
+    - Common
+    - Dwarvish
+  trades:
+    - Masonry
+    - Smithing
+    - Boating
+non_proficiencies:
+  Persuasion:
+    - cha: 1
+  Investigation:
+    - int: 0
+  Stealth:
+    - dex: -1
+  Arcana:
+    - int: 0
+  Acrobatics:
+    - dex: -1
+  Nature:
+    - int: 0
+  Religion:
+    - wis: 3
+  SleightofHand:
+    - dex: -1
+  Survival:
+    - wis: 3
+  Performance:
+    - cha: 1
+  Perception:
+    - wis: 3
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Striker (warhammer):
+        atk_bonus: 3
+        type: Bludgeoning
+        dmg: 1d8+1/1d10+1
+        ammo: N/A
+    - Light Crossbow:
+        atk_bonus: 1
+        type: Piercing
+        dmg: 1d8-1
+        ammo: 20
+        special: 80/320
+    - Throwing Axes:
+        atk_bonus: 1
+        type: Slashing
+        dmg: 1d6-1
+        ammo: 3
+        special: 20/60
+  special:
+    Cleric:
+      - Channel Divinity:
+          - Turn Undead (Action, 30', Wis save,  If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage)
+          - Artisan's Blessing (Hour long ritual can nonmagical thing or duplicate, up to 100 gp at cost)
+          - charges: 1
+          - max_charges: 1
+  magic:
+   Slots:
+      1st:
+        charges: 4
+        max_charges: 4
+      2nd:
+        charges: 2
+        max_charges: 2
+    Cleric:
+      spell_save: 13
+      spell_attack: 5
+      spells_known: 6
+      Cantrips:
+        - Mending
+        - Sacred Flame
+        - Spare the Dying
+      1st:
+        ready:
+          - Identify
+          - Searing Smite
+          - Cure Wounds
+          - Command
+          - Inflict Wounds
+          - Create or Destroy Water
+        not_ready:
+      2nd:
+        ready:
+          - Heat Metal
+          - Magic Weapon
+          - Locate Object
+          - Hold Person
+        not_ready:
+  attuned_items:
+    -
+  bonds:
+    - 1x Tyr and Hall of Justice
+
+# Inventory
+attributes:
+  Dwarf:
+    - Darkvision 60'
+    - Advantage to save vs poison, resistence
+    - Stonecunning (x2 proficiency for History about the stones)
+    - Dwarven toughness (+1 max HP per level)
+  Cleric:
+    - Blessing of the Forge (+1 AC or +1 atk/dmg at end of long rest, embuing with magic)
+quirks:
+packed_gear:
+  - Explorer's Pack
+  - 
+
+deployed_gear:
+allies:
+wealth:
+  Lifestyle: Modest
+  copper: 0
+  silver: 8
+  electrum: 0
+  gold: 15
+  platinum: 0
