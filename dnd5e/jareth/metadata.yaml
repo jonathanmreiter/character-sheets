@@ -105,10 +105,10 @@ attacks:
         dmg: 1d6+4
         ammo: 2
         range: 30/120
-    - Hartbreaker (longbow):
-        atk_bonus: 9
+    - Hartbreaker (longbow+1):
+        atk_bonus: 10
         type: Piercing
-        dmg: 1d8+4
+        dmg: 1d8+5
         ammo: 20
         range: 30/120
     - Talons:
@@ -155,7 +155,11 @@ attacks:
           - Silence
         not_ready:
   attuned_items:
-    -
+    - Wand of Web:
+      - Cast Web, DC 15
+      - Recharge 1d6+1
+      - charges: 7
+      - max_charges: 7
   bonds:
 
 # Inventory
