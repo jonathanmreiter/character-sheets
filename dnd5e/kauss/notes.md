@@ -348,12 +348,29 @@ Castle
     20? Kragmaw goblins
     5-10 hobgoblins
     wolves in SE
-    Volblem (Shaman?) and Big Carl in N
+    Voblem (Shaman?) and Big Carl in N
         - All the treasure in the castle
         - Magic
         - Wants to teach?
         - We could foment a rebellion
     Maybe more?
+
+Umbridge Hill
+    Potions
+
+Fought at camp -> went to fortress, met up with soldiers and goblins -> bean tree
+
+Bean tree
+    - Displacer beast
+    - Chased into tree
+    - Ulla + Quilla the Gnome told them to stop
+    - Beans make pyrotechnics
+    - Dread ring? -> 2 books (Lorragauth, On Observing the Material and Echo Planes)
+
+Dread Ring
+    - Observatory
+    - Used to be a citadel?
+
 # Potential Buys
 1. Horseman's Pick (Warhammer - 15gp) - silvered (100gp)
 2. Splint mail (200gp) - Platemail (1500gp)
@@ -366,3 +383,23 @@ Castle
 1. Hire somebody to work out the title for the Triboar Roadhouse
    1. Give back to the original farmer, with interest free loan to resettle
    2. Buy out deed, tithe to the Order of Taikos
+
+# Steeds
+1. Celestial Warhorse: Sir Tain (Goliath, she/her)
+   1. White horse, with long tidy beaded mane 
+   2. Holier than thou zealot
+   3. Hero complex
+   4. Brutally honest when needed
+   5. Was a famously unpopular deacon who was martyred under contested circumstances
+2. Celestial Worg: Sir Lee (Halfing, they/them)
+   1. Jet black frizzy haired dog with red highlights and the scarred face of a bandit
+   2. Cynical anti-hero
+   3. Bloodthirsty
+   4. Empathetic to fault
+   5. Ran an orphanage at Mount Nimda which has become defunct 
+3. Celestial Giant Goat: Sir Foote (Human, he/him)
+   1. Tonsured fat jovial face with puffy red cheeks and big goat eyes
+   2. Mellow to the point of apathy
+   3. Boring
+   4. Extremely good aesthetic eye
+   5. Was a famous unattributed poet

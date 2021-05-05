@@ -8,9 +8,9 @@ active: true
 player_name: JR
 classes:
   - Paladin:
-      level: 4
+      level: 5
       subclass: Redemption
-xp: 2870
+xp: 6500
 
 # Key Stats
 abilities:
@@ -21,16 +21,16 @@ abilities:
   wis: 12
   cha: 16
 inspiration: true 
-proficiency_bonus: 2
+proficiency_bonus: 3
 passive_perception: 11
 
 # Health
 hp:
-  current: 34
-  max: 36
+  current: 44
+  max: 44
   temp: 0
 hit_dice:
-  total: 4d10+8
+  total: 5d10+10
   remaining: 4
 death:
   success: 0
@@ -42,8 +42,8 @@ ac:
   - kite_shield: 2
   - total: 18
 saving_throws:
-  - cha: 5
-  - wis: 3
+  - cha: 6
+  - wis: 4
 
 # Movement
 initiative:
@@ -55,19 +55,19 @@ speed:
 core_proficiencies:
   AnimalHandling:
     - wis: 1
-    - total: 3
+    - total: 4
   History:
     - int: 0
-    - total: 2
+    - total: 3
   Insight:
     - wis: 1
-    - total: 3
+    - total: 4
   Athletics:
     - str: 3
-    - total: 5
+    - total: 6
   Persuasion:
     - cha: 3
-    - total: 5
+    - total: 6
 bg_proficiencies:
   languages:
     - Common
@@ -103,19 +103,25 @@ non_proficiencies:
   
 # Stuff to do in battle
 attacks:
+  number: 2
   weapons:
     - Bulava (mace):
-        atk_bonus: 5
+        atk_bonus: 6
         type: Bludgeoning
         dmg: 1d6+3
         ammo: N/A
+    - Hew (battleaxe):
+        atk_bonus: 7
+        type: Slashing
+        dmg: 1d8+4
+        ammo: N/A
     - Uhlan (lance):
-        atk_bonus: 5
+        atk_bonus: 6
         type: Piercing
         dmg: 1d12+3
         special: 5' reach, two hands if not mounted
     - Goblin Longbow:
-        atk_bonus: 1
+        atk_bonus: 2
         type: Piercing
         dmg: 1d8-1
         special: 150/600
@@ -132,12 +138,12 @@ attacks:
           - 2d8 damage + 1d8 for every level higher, +1d8 if for undead
       - Lay on Hands:
         - Action, heal from pool of HP, or spend 5 to cure disease or poison
-        - charges: 7
-        - max_charge: 20
+        - charges: 25
+        - max_charge: 25
       - Fighting Style Interception:
         - Reaction
         - When a creature you can see hits a target, other than you, within 5 feet of you with an attack
-        - Reduce the damage the target takes by 1d10+2
+        - Reduce the damage the target takes by 1d10+3
       - Channel Divinity:
           - Emissary of Peace - Bonus, +5 Persuasion checks for next 10m
           - Rebuke the Violent - Reaction to dmg w/in 30'. Force saving throw, takes radiant damage equal to damage it dealt
@@ -146,22 +152,31 @@ attacks:
   magic:
    Slots:
       1st:
-        charges: 1
-        max_charges: 3
+        charges: 4
+        max_charges: 4
+      2nd:
+        charges: 2
+        max_charges: 2
     Paladin:
-      spell_save: 12
-      spell_attack: 4
-      spells_known: 3
+      spell_save: 13
+      spell_attack: 5
+      spells_known: 5
       1st:
         ready:
+          - Sanctuary*
+          - Sleep*
           - Bless
           - Cure Wounds
           - Shield of Faith
-          - Sanctuary
-          - Sleep
+          - Protection from Evil
         not_ready:
+      2nd:
+        ready:
+          - Calm Emotions*
+          - Hold Person*
+          - Find Steed
   attuned_items:
-    -
+    - Hew
   bonds:
     - 1x Tyr and Hall of Justice
 
@@ -197,7 +212,7 @@ allies:
 wealth:
   Lifestyle: Modest
   copper: 0
-  silver: 268
+  silver: 0
   electrum: 0
-  gold: 99
+  gold: 457
   platinum: 0
