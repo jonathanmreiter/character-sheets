@@ -1,0 +1,26 @@
+Crew:
+    Style: Smugglers
+    Tier: 0
+    Heat: 0
+    Coin: 9
+    Possesions:
+        - Stronghold
+    Line of work:
+        - Smuggling ghost makeup
+    Residence:
+        - Barrowcleft market
+        - False front building
+    Hunting ground:
+        - Brightstone
+        - The Church in charge (paid Padre)
+    Special Abilities:
+        - Ghost Passage
+    Upgrades:
+        - Documents
+        - Hidden
+    Relations:
+        - Lord Scurlock: +1
+        - The Reconciled: +1
+        - The Silver Nails: -1
+        - Ink Rakes: -2
+XP: 4

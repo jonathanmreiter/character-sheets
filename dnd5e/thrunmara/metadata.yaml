@@ -1,0 +1,162 @@
+---
+
+condition:
+
+# Archetype
+moniker: thrunmara
+active: false
+player_name: JR
+classes:
+  - Barbarian:
+      level: 5
+      subclass: Battle Rager
+xp: 6500
+
+# Key Stats
+abilities:
+  str: 18
+  dex: 13
+  con: 16
+  int: 8
+  wis: 10
+  cha: 12
+inspiration: 0
+proficiency_bonus: 3
+passive_perception: 13
+
+# Health
+hp:
+  current: 65
+  max: 65
+  temp: 0
+hit_dice:
+  total: 5d12+15
+  remaining: 5
+death:
+  success: 0
+  failure: 0
+
+# Toughness
+ac:
+  - spiked: 14
+  - shield: 2
+  - total: 16
+saving_throws:
+  - str: 7
+  - con: 6
+
+# Movement
+initiative:
+  - total: 1
+speed:
+  - walk: 35
+
+# Skills
+core_proficiencies:
+  
+bg_proficiencies:
+  Athletics:
+    - str: 4
+    - expertise: 3
+    - total: 10
+  Deception:
+    - cha: 1
+    - total: 4
+  Perception:
+    - wis: 0
+    - total: 3
+  Survival:
+    - wis: 0
+    - total: 3
+  Intimidation:
+    - cha: 1
+    - total: 4
+  Nature:
+    - wis: 0
+    - total: 3
+  languages:
+    - Common
+    - Dwarvish
+    - Undercommon
+    - Deep Speech
+  trades:
+    - Masonry
+non_proficiencies:
+  Animal Handling:
+    - wis: 0
+    - total: 0
+  History:
+    - int: -1
+    - total: -1
+  Persuasion:
+    - cha: 1
+  Acrobatics:
+    - dex: 1
+  Stealth:
+    - dex: 1
+  SleightofHand:
+    - dex: 1
+  Performance:
+    - cha: 1
+  
+# Stuff to do in battle
+attacks:
+  weapons:
+    - Lochaber (Greataxe):
+        atk_bonus: 7
+        type: Slashing
+        dmg: 1d12+4
+    - Javelin:
+        atk_bonus: 4
+        type: Piercing
+        dmg: 1d6+1
+        ammo: 6
+        range: 30/120
+    - Spiked Armor:
+        atk_bonus: 7
+        type: Piercing
+        dmg: 1d4+4
+  special:
+    - Grapple Damage: Do 3 damage every time a Grapple check succeeds
+    - Reckless Attack: Advantage on rolls for, but disadvantage on rolls against
+    - Extra attack: x2
+    - Rage (Bonus):
+      charges: 3
+      max_charges: 3
+        - Advantage on Strength checks and saves
+        - +2 to damage with melee weapon
+        - Resistance to bludgeoning, piercing, slashing
+        - No spells
+        - 1 minute
+        - recovers with long rest
+  magic:
+    - Enlarge once per long rest
+    - Invisiblity once per long rest
+    - Cannot be cast in the sunlight
+  attuned_items:
+
+  bonds:
+
+# Inventory
+attributes:
+  Barbarian:
+    Danger Sense: Advantage on dex saves on things you can see
+    Skill Expert: Athletics
+  Duergar:
+    Superior Darkvision: 120'
+    Duergar Resilience: Advantage and resistance to poison, advantage to charmed or paralyzed
+    Stonecunning: Double proficient with history for stonework
+    Sunlight Sensitivity: Disadvantage on attack rolls and windom in direct sunlight
+quirks:
+packed_gear:
+  - Explorer's pack
+
+deployed_gear:
+allies:
+wealth:
+  Lifestyle: 
+  copper: 0
+  silver: 8
+  electrum: 0
+  gold: 5
+  platinum: 0
